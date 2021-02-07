@@ -1,22 +1,69 @@
-import React from 'react';
-import { Text, View, StyleSheet, Pressable } from 'react-native';
+import React, { useState } from 'react';
+import { Text, View, StyleSheet, Pressable, Button } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
+import data from './data.json';
 
 const List = (props) => {
-    console.log(props.linkEx)
+    const [params, setParams] = useState(props.route.params);
+    const [praepositionen, setPraepositionen] = useState(data.praepositionen);
+    const [help, setHelp] = useState(props.route.params.help);
+    const [helpComponent, sethelpComponent] = useState(false);
+    const helpHandler = (flag) => {
+        if (flag) {
+            return (
+                <View style={styles.helpContainer}
+                >
+                    <Pressable
+                        onPress={() => sethelpComponent(!helpComponent)}
+                        style={styles.helpBtn}
+                    >
+                        <Text style={styles.helpText} >&#9783;</Text>
+                    </Pressable>
+                </View>
+            );
+        }
+    }
+
+    function listSelect(list, item) {
+        if (list == 'AdjMitPro') {
+            return (
+                <Text style={styles.btnText} >{item.title}{praepositionen[item.answer].title}</Text>
+            );
+        } else if (list == 'NomVerbVerbin' || list == 'Brief' || list == 'verbMitPro' || list == 'Test') {
+            return (
+                <Text style={styles.btnText} >{item.title}{item.answer}</Text>
+            );
+        }
+    }
     return (
         <View style={styles.container} >
+            {helpHandler(help)}
+            <View style={[styles.helpComponent, { top: helpComponent ? '1.5%' : '100%' }]} >
+                <Text style={{ color: '#fff' }} >
+                    etw = Sache + Akkusativ{'\n'}
+                    jdn = Person + Akkusativ{'\n'}
+                    s. = Reflexivpronomen + Akkusativ{'\n'}
+                    jdm = Person + Dativ{'\n'}
+                    s. = Reflexivpronomen + Dativ{'\n'}
+                </Text>
+            </View>
             <FlatList
                 showsVerticalScrollIndicator={false}
-                data={props.data}
+                data={props.route.params.data}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => {
                     return (
                         <Pressable style={styles.btn}
-                            onPress={() => props.navigation.navigate(props.linkEx, { id: item.id })}
+                            onPress={() => {
+                                if (params.flag == 'Test') {
+                                    props.navigation.navigate('Test', { testId: item.id })
+                                } else {
+                                    props.navigation.navigate('Beispiel', { flag: params.flag, flagData: params.data[item.id] })
+                                }
+                            }}
                         >
                             <View>
-                                <Text style={styles.btnText} >{item.title}</Text>
+                                {listSelect(props.route.params.flag, item)}
                             </View>
                         </Pressable>
                     );
@@ -33,13 +80,14 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#eee',
+        position: 'relative'
     },
     btn: {
         backgroundColor: "rgb(100, 100, 255)",
         paddingHorizontal: 5,
         borderRadius: 5,
         marginVertical: 10,
-        width: 270,
+        width: 285,
         height: 70,
         justifyContent: 'center',
         shadowColor: "#000",
@@ -56,4 +104,39 @@ const styles = StyleSheet.create({
         fontSize: 20,
         letterSpacing: 1
     },
+    helpContainer: {
+        marginVertical: 5,
+        width: 285,
+        alignItems: 'flex-end',
+    },
+    helpBtn: {
+        backgroundColor: '#aaa',
+        borderRadius: 5,
+        alignItems: 'center',
+        justifyContent: 'center',
+
+    },
+    helpText: {
+        color: 'red',
+        fontSize: 25,
+        fontWeight: '900'
+    },
+    helpComponent: {
+        left: '10%',
+        position: 'absolute',
+        zIndex: 1,
+        backgroundColor: 'rgba(37, 37, 70, 0.808)',
+        padding: 5,
+        borderRadius: 5,
+        borderWidth: 2,
+        borderColor: '#fff',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 7,
+        },
+        shadowOpacity: 0.43,
+        shadowRadius: 9.51,
+        elevation: 50,
+    }
 });

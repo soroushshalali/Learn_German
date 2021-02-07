@@ -1,6 +1,11 @@
 {
     "briefe": [
         {
+            "id": "9",
+            "title": "Bitte Informationen über Fitnessstudio",
+            "content": "ich habe Ihre Anzeige im Internet gelesen und interessiere mich für Ihre Angebote. Ich war für fünf Monate in einem Fitnessstudio Mitglied und das macht mir mehr frisch und aktiv und macht meine Gesundheit besser. Das hilft mir Gewicht abnehmen auch. Auf dem Laufband zu laufen und auf dem Fahrrad im Fitnessstudio, habe ich dagegen sehr langweilig gefunden. Lieber laufe und Rad fahre ich in Frische Luft.Ich mag nicht Fleisch, obwohl Inhalte es mehr Protein als Gemüse und Obst, so würde ich mich freuen, wenn sie in Ihrem Café-Bereich auch Vegetarische essen und Mahlzeiten mit viel Protein haben. Dann konnte ich nach dem Training gleich bei Ihnen essen und muss nicht zu Hause kochen.Jetzt habe ich meine Arbeit wechsle und möchte ein Fitnessstudio in der Nähe. Ich muss auch in meiner Arbeit viele Stunden im Büro sitzen, deshalb brauche ich eine Fitness -programm, das die Nackenmuskeln stärkt. Vielleicht können sie mir da etwas Spezielles empfehlen.Ich möchte auch kennen, von wann bis wann Ihr Fitnessstudio geöffnet ist und ob Sie auch am Wochenende offen sind.In Ihrer Anzeige steht, dass Sie Joga und Entspannung Klasse bitten. Inhalte die Mitgliedschaft diese Klasse?  Könnten Sie mir das ein wenig näher erklären?"
+        },
+        {
             "id": "1",
             "title": "Beschwerde über Jungen Camp",
             "content": "ich habe Ihre Anzeige in der Zeitung gelesen, dachte ich sofort, dass ich viel Spaß in Ihrem Camp haben und viele Erfahrungen haben. Ich besuchte das Camp vom 1.08. bis 1.10.2017 und bezahlte 1100 Euro, was ein sehr hoher Betrag für meine Familie ist. Ich habe schon vor einer Woche bei Ihnen teilgenommen, aber ich war mit das nicht zufrieden. Aus diesem Grund schreibe ich Ihnen und möchte ich mich bei Ihnen beschwerte.Zuerst hat die Anzeige gesagt, dass die Teilnehmerzahl ist 30, aber dort waren 50 Teilnehmer. Aus diesem Grund war die Unterrichte immer sehr Laut. Die Betten waren sehr schlecht und wir hatten nur ein Bad für 20 Personen, auch es gab zu wenige Material zu bauen, so ich konnte nicht zu viel machen. Auch die Dusche war kaputt. Ich habe mit dem Helfer gesprochen, aber er hat mir lediglich gesagt, dass er sich um diesem Problem kümmern wird, aber leider hat er sich sehr verspätet.Die Helfer waren Studenten und sie haben Erfahrung im Problemlösung nicht. Aufgrund der irreführenden Information in Ihrer Zeitungsanzeige bitte ich um Erstattung meiner Kosten. Ich bin auch mit der Reduzierung des Gesamtpreises einverstanden."
@@ -39,245 +44,1485 @@
             "id": "8",
             "title": "Bitte Informationen über ein Festival",
             "content": "ich habe mit großem Interesse Ihren Anzeigen im Online Blog über Oktoberfest gelesen und das gefallt mir sehr gut, dass ich zusammen mit meiner Familie das Oktoberfest besuchen möchte, dass meiner Kindheit höre ich, dass Oktoberfest schönste und weltbekannt Veranstaltung ist. Deshalb möchte ich diese berühmt Veranstaltung erleben.Sehr gern würde ich nach meinem Aufenthalt fragen. Ich suche eine billig und sauber Hotel in der Nähe zu Oktoberfest zu buchen. Ich möchte auch mehr über die Stadtgeschichte weiß, deshalb bitte ich sie eine liste mit Museum und Wahrzeichen in der Stadt. Meine nächste Fragen wäre wie lange ist das Fest und darf man nicht ganze Tage blieben?Und als Letztes möchte ich noch fragen, ob er erlaubt es, Kindern auf das Fest mitbringen und wie können die Kinder Spaß haben?Ich danke Ihnen im Voraus für die Beantwortung meiner Fragen."
-        },
-        {
-            "id": "9",
-            "title": "Bitte Informationen über Fitnessstudio",
-            "content": "ich habe Ihre Anzeige im Internet gelesen und interessiere mich für Ihre Angebote. Ich war für fünf Monate in einem Fitnessstudio Mitglied und das macht mir mehr frisch und aktiv und macht meine Gesundheit besser. Das hilft mir Gewicht abnehmen auch. Auf dem Laufband zu laufen und auf dem Fahrrad im Fitnessstudio, habe ich dagegen sehr langweilig gefunden. Lieber laufe und Rad fahre ich in Frische Luft.Ich mag nicht Fleisch, obwohl Inhalte es mehr Protein als Gemüse und Obst, so würde ich mich freuen, wenn sie in Ihrem Café-Bereich auch Vegetarische essen und Mahlzeiten mit viel Protein haben. Dann konnte ich nach dem Training gleich bei Ihnen essen und muss nicht zu Hause kochen.Jetzt habe ich meine Arbeit wechsle und möchte ein Fitnessstudio in der Nähe. Ich muss auch in meiner Arbeit viele Stunden im Büro sitzen, deshalb brauche ich eine Fitness -programm, das die Nackenmuskeln stärkt. Vielleicht können sie mir da etwas Spezielles empfehlen.Ich möchte auch kennen, von wann bis wann Ihr Fitnessstudio geöffnet ist und ob Sie auch am Wochenende offen sind.In Ihrer Anzeige steht, dass Sie Joga und Entspannung Klasse bitten. Inhalte die Mitgliedschaft diese Klasse?  Könnten Sie mir das ein wenig näher erklären?"
         }
+
     ],
     "NomVerbVerbin": [
         {
             "id": "0",
-            "title": "in Angriff nehmen (beginnen mit)",
+            "title": "in Angriff nehmen ",
+            "answer": "(beginnen mit)",
             "example": "Eine Restrukturierung der Firma sollte in Angriff genommen."
         },
         {
             "id": "1",
-            "title": "Abschied nehmen von (sich verabschieden)",
+            "title": "Abschied nehmen von ",
+            "answer": "(sich verabschieden)",
             "example": "Ich nehme von meiner Familie Abschied."
         },
         {
             "id": "2",
-            "title": "auf Ablehnung stoßen (abgelehnt werden)",
+            "title": "auf Ablehnung stoßen ",
+            "answer": "(abgelehnt werden)",
             "example": "Für eine Erhöhung des Kindergeldes stößt der Vorschlag der Opposition bei der Regierung auf Ablehnung."
         },
         {
             "id": "3",
-            "title": "einen/den Antrag (auf) stellen (beantragen)",
+            "title": "einen/den Antrag (auf) stellen ",
+            "answer": "(beantragen)",
             "example": "Auf Entlassung des Ministers stellt die Opposition einen Antrag."
         },
         {
             "id": "4",
-            "title": "zur Diskussion/ Debatte stellen (diskutieren lassen)",
+            "title": "zur Diskussion/ Debatte stellen ",
+            "answer": "(diskutieren lassen)",
             "example": "In der Parlamentsdebatte stellt der Minister eine Verkürzung der Schulzeit zur Diskussion."
         },
         {
             "id": "5",
-            "title": "in Brand setzen (anzünden)",
+            "title": "in Brand setzen ",
+            "answer": "(anzünden)",
             "example": "Zahlreiche Häuser werden von Demonstranten in Brand gesetzt."
         },
         {
             "id": "6",
-            "title": "in Betracht ziehen (überlegen)",
+            "title": "in Betracht ziehen ",
+            "answer": "(überlegen)",
             "example": "Wer keinen Studienplatz bekommt, sollte eine Änderung des Studienwunsches in Betracht ziehen."
         },
         {
             "id": "7",
-            "title": "Einfluss nehmen auf (beeinflussen)",
+            "title": "Einfluss nehmen auf ",
+            "answer": "(beeinflussen)",
             "example": "Die Mitarbeiter möchten auf die Entscheidung über die Firma Einfluss nehmen."
         },
         {
             "id": "8",
-            "title": "in Erfüllung gehen (erfüllt werden)",
+            "title": "in Erfüllung gehen ",
+            "answer": "(erfüllt werden)",
             "example": "Der Wunsch nach einem Studienplatz geht bei den meisten in Erfüllung."
         },
         {
             "id": "9",
-            "title": "in Frage stellen (bezweifeln)",
+            "title": "in Frage stellen ",
+            "answer": "(bezweifeln)",
             "example": "Deshalb wird von vielen Menschen in Frage gestellt."
         },
         {
             "id": "10",
-            "title": "eine/ die Entscheidung treffen über (entscheiden)",
+            "title": "eine/ die Entscheidung treffen über ",
+            "answer": "(entscheiden)",
             "example": "Das Parlament trifft eine Entscheidung über die Steuererhöhung."
         },
         {
             "id": "11",
-            "title": "eine/ die Frage stellen an (fragen)",
+            "title": "eine/ die Frage stellen an ",
+            "answer": "(fragen)",
             "example": "Die Studenten stellen dem Lehrer eine Frage."
         },
         {
             "id": "12",
-            "title": "Hilfe leisten bei (helfen)",
+            "title": "Hilfe leisten bei ",
+            "answer": "(helfen)",
             "example": "Das Mädchen leistet bei der Haushalt Hilfe."
         },
         {
             "id": "13",
-            "title": "in Kraft treten (wirksam werden)",
+            "title": "in Kraft treten ",
+            "answer": "(wirksam werden)",
             "example": "Die EU Richtlinie zur Energieeffizienz tritt in Kraft."
         },
         {
             "id": "14",
-            "title": "in Kauf nehmen (akzeptieren)",
+            "title": "in Kauf nehmen ",
+            "answer": "(akzeptieren)",
             "example": "Längerer Wartezeiten müssen die Studenten in Kauf nehmen."
         },
         {
             "id": "15",
-            "title": "Kritik üben an (kritisieren)",
+            "title": "Kritik üben an ",
+            "answer": "(kritisieren)",
             "example": "Die Menschen übten Kritik an der Regierung."
         },
         {
             "id": "16",
-            "title": "ums Leben kommen (sterben)",
+            "title": "ums Leben kommen ",
+            "answer": "(sterben)",
             "example": "Viele Personen kommen in Syrien ums Leben."
         },
         {
             "id": "17",
-            "title": "auf Kritik stoßen (kritisiert werden)",
+            "title": "auf Kritik stoßen ",
+            "answer": "(kritisiert werden)",
             "example": "Die Regierung stößt bei vielen Menschen auf Kritik."
         },
         {
             "id": "18",
-            "title": "einen/den Rat geben (beraten)",
+            "title": "einen/den Rat geben ",
+            "answer": "(beraten)",
             "example": "Der Lehrer gibt den Studenten Rat bei den Übungen."
         },
         {
             "id": "19",
-            "title": "Platz nehmen ( sich setzen)",
+            "title": "Platz nehmen ",
+            "answer": "( sich setzen)",
             "example": "Die Frau nimmt auf dem Stuhl Platz."
         },
         {
             "id": "20",
-            "title": "Rücksicht nehmen auf (berücksichtigen)",
+            "title": "Rücksicht nehmen auf ",
+            "answer": "(berücksichtigen)",
             "example": "Die Regierung muss auf die Interessen der Bürger Rücksicht nehmen."
         },
         {
             "id": "21",
-            "title": "Stellung nehmen zu (seine Meinung sagen zu)",
+            "title": "Stellung nehmen zu ",
+            "answer": "(seine Meinung sagen zu)",
             "example": "Der Student nimmt Stellung zu den Themen der Klasse."
         },
         {
             "id": "22",
-            "title": "Sport treiben (Sport machen)",
+            "title": "Sport treiben ",
+            "answer": "(Sport machen)",
             "example": "Man soll Sport treiben, um gesund zu sein."
         },
         {
             "id": "23",
-            "title": "einn Urteil fällen über (urteilen)",
+            "title": "einn Urteil fällen über ",
+            "answer": "(urteilen)",
             "example": "Das Gericht wird im nächsten Monat sein Urteil fällen."
         },
         {
             "id": "24",
-            "title": "in Streit geraten (einen Streit beginnen)",
+            "title": "in Streit geraten ",
+            "answer": "(einen Streit beginnen)",
             "example": "Die Lehrer sind wegen der Schuler in Streit geraten."
         },
         {
             "id": "25",
-            "title": "zur Verantwortung ziehen (verantwortlich machen für)",
+            "title": "zur Verantwortung ziehen ",
+            "answer": "(verantwortlich machen für)",
             "example": "Für Gräueltaten zieht die Militärjustiz ihre Soldaten zur Verantwortung."
         },
         {
             "id": "26",
-            "title": "zur Wehr setzen (sich wehren)",
+            "title": "zur Wehr setzen ",
+            "answer": "(sich wehren)",
             "example": "Die Frau  setzt sich gegen seine Verhaftung zur Wehr."
         },
         {
             "id": "27",
-            "title": "zur Verfügung stellen (geben)",
+            "title": "zur Verfügung stellen ",
+            "answer": "(geben)",
             "example": "Die Gemeinschaften stellen Unterkünfte für die Armen zur Verfügung."
         },
         {
             "id": "28",
-            "title": "in Zweifel ziehen (bezweifeln)",
+            "title": "in Zweifel ziehen ",
+            "answer": "(bezweifeln)",
             "example": "Der Richter zieht das Alibi des Mannes in Zweifel."
         },
         {
             "id": "29",
-            "title": "Wert legen auf (wichtig sein)",
+            "title": "Wert legen auf ",
+            "answer": "(wichtig sein)",
             "example": "Ich lege große Werte auf die menschlichen Beziehungen."
         },
         {
             "id": "30",
-            "title": "zur Anzeige bringen (zeigen)",
+            "title": "zur Anzeige bringen ",
+            "answer": "(zeigen)",
             "example": "Die Frau bringt den Diebstahl zur Anzeige."
         },
         {
             "id": "31",
-            "title": "Übereinstimmung bestehen (übereinstimmen)",
+            "title": "Übereinstimmung bestehen ",
+            "answer": "(übereinstimmen)",
             "example": "Zwischen Plagiat und Original besteht hundertprozentige Übereinstimmung besteht."
         }
     ],
     "AdjMitPro": [
         {
             "id": "0",
-            "title": "abhängig von + Dat",
+            "title": "abhängig",
+            "answer": "12",
             "example": "Der Student	ist	noch vom Geld seiner Eltern	abhängig."
         },
         {
             "id": "1",
-            "title": "angenehm für + Akk",
+            "title": "angenehm",
+            "answer": "0",
             "example": "Das heiße Wetter war für die Hotelgäste nicht besonders	angenehm."
         },
         {
             "id": "2",
-            "title": "angesehen bei + Dat",
+            "title": "angesehen",
+            "answer": "8",
             "example": "Herr Schwamm ist bei seinen Mitarbeitern sehr angesehen."
         },
         {
             "id": "3",
-            "title": "ärgerlich auf + Akk",
+            "title": "ärgerlich",
+            "answer": "31",
             "example": "Warum	bist	du auf deinen Sohn so maßlos	ärgerlich?"
         },
         {
             "id": "4",
-            "title": "befreundet mit + Dat",
+            "title": "befreundet",
+            "answer": "13",
             "example": "Die Peters	sind	mit dem Schlagersänger eng	befreundet."
         },
         {
             "id": "5",
-            "title": "begeistert von + Dat",
+            "title": "begeistert",
+            "answer": "12",
             "example": "Wir	waren	von diesem Spiel total	begeistert."
         },
         {
             "id": "6",
-            "title": "bekannt für + Akk",
+            "title": "bekannt",
+            "answer": "0",
             "example": "Reinhard	ist	überall für seine dummen Sprüche	bekannt."
         },
         {
             "id": "7",
-            "title": "beliebt bei + Dat",
+            "title": "beliebt",
+            "answer": "8",
             "example": "Herr Riedlewitz	bleibt	bei allen Schülern sehr	beliebt."
         },
         {
             "id": "8",
-            "title": "bereit zu + Dat",
+            "title": "bereit",
+            "answer": "14",
             "example": "Der alte Mann	ist	jetzt zum Sterben	bereit."
         },
         {
             "id": "9",
-            "title": "beschäftigt mit + Dat",
+            "title": "beschäftigt",
+            "answer": "13",
             "example": "Der Mechaniker	ist	mit der Reparatur einer Maschine	beschäftigt."
         },
         {
             "id": "10",
-            "title": "beteiligt an + Dat",
+            "title": "beteiligt",
+            "answer": "23",
             "example": "Warst	du auch an diesem Blödsinn	beteiligt?"
         },
         {
             "id": "11",
-            "title": "beunruhigt über + Akk",
+            "title": "beunruhigt",
+            "answer": "26",
             "example": "Sind	Sie auch über den Klimawandel	beunruhigt?"
         },
         {
             "id": "12",
-            "title": "blass vor + Dat",
+            "title": "blass",
+            "answer": "16",
             "example": "Die junge Frau	ist	vor lauter Angst	blass geworden."
         },
         {
             "id": "13",
-            "title": "böse auf + Akk",
+            "title": "böse",
+            "answer": "31",
             "example": "Warum	bist	du denn auf mich so	böse?"
+        },
+        {
+            "id": "14",
+            "title": "jdm. dankbar",
+            "answer": "0",
+            "example": "Für deine Hilfe	bin	ich dir überaus	dankbar."
+        },
+        {
+            "id": "15",
+            "title": "eifersüchtig",
+            "answer": "31",
+            "example": "Unser großer Sohn	ist	auf das Baby unheimlich	eifersüchtig"
+        },
+        {
+            "id": "16",
+            "title": "einverstanden",
+            "answer": "13",
+            "example": "Mit dem Ergebnis	sind	die meisten Mitarbeiter nicht	einverstanden."
+        },
+        {
+            "id": "17",
+            "title": "entfernt",
+            "answer": "12",
+            "example": "Von guten Noten	ist	der Schüler meilenweit	entfernt."
+        },
+        {
+            "id": "18",
+            "title": "entscheidend",
+            "answer": "0",
+            "example": "Der Elfmeter	war	für die Niederlage	entscheidend."
+        },
+        {
+            "id": "19",
+            "title": "entschlossen",
+            "answer": "14",
+            "example": "Der Verbrecher	ist	womöglich zu allem	entschlossen."
+        },
+        {
+            "id": "20",
+            "title": "entsetzt",
+            "answer": "26",
+            "example": "Wir	waren	alle über seine üblen Worte	entsetzt."
+        },
+        {
+            "id": "21",
+            "title": "enttäuscht",
+            "answer": "12",
+            "example": "Das Unternehmen	ist	von dem bisherigen Geschäftsverlauf	enttäuscht."
+        },
+        {
+            "id": "22",
+            "title": "erfreut",
+            "answer": "26",
+            "example": "Über das Ergebnis	sind	wir mehr als	erfreut."
+        },
+        {
+            "id": "23",
+            "title": "erstaunt",
+            "answer": "26",
+            "example": "Die Zuschauer	sind	über das gute Spiel ihrer Mannschaft	erstaunt."
+        },
+        {
+            "id": "24",
+            "title": "fähig",
+            "answer": "14",
+            "example": "Ein verletztes Tier	ist	zu allem	fähig."
+        },
+        {
+            "id": "25",
+            "title": "fertig",
+            "answer": "13",
+            "example": "	Bist	du schon mit deinen Hausaufgaben	fertig?"
+        },
+        {
+            "id": "26",
+            "title": "freundlich",
+            "answer": "14",
+            "example": "Dein neuer Freund	ist	wirklich zu all deinen Freunden	freundlich."
+        },
+        {
+            "id": "27",
+            "title": "froh",
+            "answer": "26",
+            "example": "Ich	bin	über deine bestandene Prüfung sehr	froh."
+        },
+        {
+            "id": "28",
+            "title": "geeignet",
+            "answer": "0",
+            "example": "Für diese Arbeiten	ist	der neue Mitarbeiter wirklich nicht	geeignet."
+        },
+        {
+            "id": "29",
+            "title": "gespannt",
+            "answer": "31",
+            "example": "Ich	bin	auf Toms neue Freundin richtig	gespannt."
+        },
+        {
+            "id": "30",
+            "title": "gewöhnt",
+            "answer": "32",
+            "example": "Die Tiere	sind	an die extreme Hitze nicht	gewöhnt."
+        },
+        {
+            "id": "31",
+            "title": "glücklich",
+            "answer": "26",
+            "example": "Der Trainer	ist	über den Punktgewinn beim BVB sehr	glücklich."
+        },
+        {
+            "id": "32",
+            "title": "gut",
+            "answer": "15",
+            "example": "Klaus	ist	in allen Fächern sehr	gut."
+        },
+        {
+            "id": "33",
+            "title": "gut",
+            "answer": "14",
+            "example": "Du	bist	immer so gut zu deinen Kindern.	 "
+        },
+        {
+            "id": "34",
+            "title": "interessiert",
+            "answer": "23",
+            "example": "Viele Männer	sind	an der hübschen Thekenbedienung	interessiert."
+        },
+        {
+            "id": "35",
+            "title": "müde",
+            "answer": "12",
+            "example": "Die Bergsteiger	sind	vom vielen Klettern sehr	müde."
+        },
+        {
+            "id": "36",
+            "title": "neidisch",
+            "answer": "31",
+            "example": "Meine Freundinnen	sind	auf meinen neuen Freund	neidisch."
+        },
+        {
+            "id": "37",
+            "title": "nett",
+            "answer": "14",
+            "example": "Kinder,	seid	bitte nett zu einander!"
+        },
+        {
+            "id": "38",
+            "title": "neugierig",
+            "answer": "31",
+            "example": "Bist	du auch auf seine Reaktion	neugierig?"
+        },
+        {
+            "id": "39",
+            "title": "offen",
+            "answer": "0",
+            "example": "Ich	bin	wie immer für alles Neue	offen."
+        },
+        {
+            "id": "40",
+            "title": "reich",
+            "answer": "23",
+            "example": "Obst	ist	reich an Vitaminen"
+        },
+        {
+            "id": "41",
+            "title": "rot",
+            "answer": "16",
+            "example": "Das nackte Mädchen	ist	rot vor Scham."
+        },
+        {
+            "id": "42",
+            "title": "schädlich",
+            "answer": "0",
+            "example": "Rauchen	ist	für die Gesundheit.	schädlich."
+        },
+        {
+            "id": "43",
+            "title": "schuld",
+            "answer": "23",
+            "example": "Sie	sind	an dem Unfall	schuld."
+        },
+        {
+            "id": "44",
+            "title": "stolz",
+            "answer": "31",
+            "example": "Wir alle	sind	auf eure Leistungen	stolz."
+        },
+        {
+            "id": "45",
+            "title": "überzeugt",
+            "answer": "12",
+            "example": "Das ganze Team	ist	von dem Erfolg dieser Produktion	überzeugt."
+        },
+        {
+            "id": "46",
+            "title": "unabhängig",
+            "answer": "12",
+            "example": "Jetzt	ist	Tom endlich vom Geld seines Vaters	unabhängig."
+        },
+        {
+            "id": "47",
+            "title": "unangenehm",
+            "answer": "0",
+            "example": "Das	ist	für alle Beteiligten sehr	unangenehm."
+        },
+        {
+            "id": "48",
+            "title": "unbeliebt",
+            "answer": "8",
+            "example": "Der Personaldirektor	ist	bei den Mitarbeitern sehr	unbeliebt."
+        },
+        {
+            "id": "49",
+            "title": "unerfahren",
+            "answer": "15",
+            "example": "Die 28-jährige Frau	ist	in Sachen Männern noch sehr	unerfahren."
+        },
+        {
+            "id": "50",
+            "title": "unfreundlich",
+            "answer": "14",
+            "example": "Warum	sind	Sie zu den Kunden so	unfreundlich?"
+        },
+        {
+            "id": "51",
+            "title": "ungeeignet",
+            "answer": "0",
+            "example": "Die Putzfrau	war	einfach für alle Arbeiten	ungeeignet."
+        },
+        {
+            "id": "52",
+            "title": "unglücklich",
+            "answer": "26",
+            "example": "Darüber	sind	wir alle sehr	unglücklich."
+        },
+        {
+            "id": "53",
+            "title": "unschuldig",
+            "answer": "23",
+            "example": "Immer	ist	Ihr Sohn an allen Geschehnissen	unschuldig."
+        },
+        {
+            "id": "54",
+            "title": "unzufrieden",
+            "answer": "13",
+            "example": "Das Präsidium	ist	mit der jetzigen Situation völlig	unzufrieden."
+        },
+        {
+            "id": "55",
+            "title": "verantwortlich",
+            "answer": "0",
+            "example": "Wer	ist	für diese Schweinerei	verantwortlich?"
+        },
+        {
+            "id": "56",
+            "title": "verärgert",
+            "answer": "26",
+            "example": "Der Vorstand	ist	sehr über den Vertragsbruch	verärgert."
+        },
+        {
+            "id": "57",
+            "title": "verheiratet",
+            "answer": "13",
+            "example": "Herr Maurer	ist	mit einer sehr hübschen Frau	verheiratet."
+        },
+        {
+            "id": "58",
+            "title": "verliebt",
+            "answer": "24",
+            "example": "Heinrich	ist	seit Jahren in Martina	verliebt."
+        },
+        {
+            "id": "59",
+            "title": "verrückt",
+            "answer": "9",
+            "example": "Ich	bin	verrückt nach dir."
+        },
+        {
+            "id": "60",
+            "title": "wichtig",
+            "answer": "0",
+            "example": "Dieser Abschluss	ist	für deine berufliche Zukunft sehr	wichtig."
+        },
+        {
+            "id": "61",
+            "title": "wütend",
+            "answer": "31",
+            "example": "Herr Schulz	ist	auf seinen Kollegen sehr	wütend."
+        },
+        {
+            "id": "62",
+            "title": "zufrieden",
+            "answer": "13",
+            "example": "Mit dem Ergebnis	können	wir alle sehr	zufrieden sein."
         }
+    ],
+    "verbMitPro":[
+        {
+            "id": "0",
+            "title": "ab|hängen von + Dat ",
+            "answer": "",
+            "example": "Ob ich mitkomme,	hängt	vom Wetter	ab."
+        },
+        {
+            "id": "1",
+            "title": "achten auf + Akk ",
+            "answer": "",
+            "example": "Achte	immer auf den Straßenverkehr!	 "
+        },
+        {
+            "id": "2",
+            "title": "etw ändern an + Dat ",
+            "answer": "",
+            "example": "Er	sollte	unbedingt etwas an seinem Aussehen	ändern."
+        },
+        {
+            "id": "3",
+            "title": "etw an|fangen mit + Dat ",
+            "answer": "",
+            "example": "Der Rentner	kann	mit seiner Freizeit nichts	anfangen."
+        },
+        {
+            "id": "4",
+            "title": "s. ängstigen um + Akk ",
+            "answer": "",
+            "example": "Die Mutter	ängstigt	sich um ihre kleine Tochter.	 "
+        },
+        {
+            "id": "5",
+            "title": "an|kommen auf + Akk ",
+            "answer": "",
+            "example": "Es	kommt	darauf	an."
+        },
+        {
+            "id": "6",
+            "title": "jdn an|sehen als + Akk ",
+            "answer": "",
+            "example": "Die Angestellten	sehen	Herrn A. nicht als Respektperson	an."
+        },
+        {
+            "id": "7",
+            "title": "antworten auf + Akk ",
+            "answer": "",
+            "example": "Warum	antworten	Sie nicht auf meine Fragen?	 "
+        },
+        {
+            "id": "8",
+            "title": "arbeiten als + Nom ",
+            "answer": "",
+            "example": "Herr Meier	hat	früher als angelernter Maurer	gearbeitet."
+        },
+        {
+            "id": "9",
+            "title": "arbeiten an + Dat ",
+            "answer": "",
+            "example": "Im Sprachlabor	können	viele Asiaten an ihrer Aussprache	arbeiten."
+        },
+        {
+            "id": "10",
+            "title": "arbeiten bei + Dat ",
+            "answer": "",
+            "example": "Mein Neffe	arbeitet	bei der Telekom in Hamburg.	 "
+        },
+        {
+            "id": "11",
+            "title": "s. ärgern über + Akk ",
+            "answer": "",
+            "example": "Ständig	ärgert	sich mein Chef über die Banken.	 "
+        },
+        {
+            "id": "12",
+            "title": "auf|hören mit + Dat ",
+            "answer": "",
+            "example": "Wann	hörst	du endlich mit deiner Nörgelei	auf?"
+        },
+        {
+            "id": "13",
+            "title": "auf|passen auf + Akk ",
+            "answer": "",
+            "example": "Pass	ja gut auf deine kleine Schwester	auf."
+        },
+        {
+            "id": "14",
+            "title": "s. auf|regen über + Akk ",
+            "answer": "",
+            "example": "Warum	regst	du dich immer über alles	auf?"
+        },
+        {
+            "id": "15",
+            "title": "aus|geben für + Akk ",
+            "answer": "",
+            "example": "Wofür	gibst	du dein ganzes Geld	aus?"
+        },
+        {
+            "id": "16",
+            "title": "s. bedanken bei + Dat ",
+            "answer": "",
+            "example": "Wir	müssen	uns bei Herrn Gruls	bedanken."
+        },
+        {
+            "id": "17",
+            "title": "s. bedanken für + Akk ",
+            "answer": "",
+            "example": "Wir	müssen	uns bei ihm für seine Hilfe	bedanken."
+        },
+        {
+            "id": "18",
+            "title": "s. beeilen mit + Dat ",
+            "answer": "",
+            "example": "Bitte	beeil	dich mit deinen Hausaufgaben.	 "
+        },
+        {
+            "id": "19",
+            "title": "beginnen mit + Dat ",
+            "answer": "",
+            "example": "Nach dem Essen	könnten	wir mit dem Aufräumen	beginnen."
+        },
+        {
+            "id": "20",
+            "title": "s. beklagen bei + Dat ",
+            "answer": "",
+            "example": "Dein Nachbar	hat	sich beim Hausmeister	beklagt."
+        },
+        {
+            "id": "21",
+            "title": "s. beklagen über + Akk ",
+            "answer": "",
+            "example": "Die alte Dame	hat	sich über Ihren Hund	beklagt."
+        },
+        {
+            "id": "22",
+            "title": "s. bemühen um + Akk ",
+            "answer": "",
+            "example": "Karl	bemüht	sich schon seit Monaten um einen neuen Job.	 "
+        },
+        {
+            "id": "23",
+            "title": "berichten über + Akk ",
+            "answer": "",
+            "example": "Worüber	hat	der Journalist so lange	berichtet?"
+        },
+        {
+            "id": "24",
+            "title": "s. beschweren bei + Dat ",
+            "answer": "",
+            "example": "Der Sohn	hat	sich bei seiner Mutter	beschwert."
+        },
+        {
+            "id": "25",
+            "title": "s. beschweren über + Akk ",
+            "answer": "",
+            "example": "Der Sohn	hat	sich bei ihr über seinen Vater	beschwert."
+        },
+        {
+            "id": "26",
+            "title": "s. bewerben um + Akk ",
+            "answer": "",
+            "example": "Florian	hat	sich um die Stelle als Buchhalter	beworben."
+        },
+        {
+            "id": "27",
+            "title": "s. bezeichnen als + Akk ",
+            "answer": "",
+            "example": "Franz-Joseph	bezeichnet	sich selbst als Alkoholiker.	 "
+        },
+        {
+            "id": "28",
+            "title": "jdn bitten um + um	 ",
+            "answer": "",
+            "example": "Dürfte	ich Sie um diesen Tanz	bitten?"
+        },
+        {
+            "id": "29",
+            "title": "jdn bringen zu + Dat ",
+            "answer": "",
+            "example": "Dieser Mann	bringt	mich noch zum Wahnsinn.	 "
+        },
+        {
+            "id": "30",
+            "title": "jdm danken für + Akk ",
+            "answer": "",
+            "example": "Der Fremde	dankt	mir für meine Hilfe.	 "
+        },
+        {
+            "id": "31",
+            "title": "denken an + Akk ",
+            "answer": "",
+            "example": "Im Urlaub	habe	ich immer nur an dich	gedacht."
+        },
+        {
+            "id": "32",
+            "title": "s. eignen für + Akk ",
+            "answer": "",
+            "example": "Dafür	eignet	sich das Material nicht.	 "
+        },
+        {
+            "id": "33",
+            "title": "s. einigen auf + Akk ",
+            "answer": "",
+            "example": "Worauf	habt	ihr euch	geeinigt?"
+        },
+        {
+            "id": "34",
+            "title": "s. einigen mit + Dat ",
+            "answer": "",
+            "example": "Worauf	habt	ihr euch mit dem Vorstand	geeinigt?"
+        },
+        {
+            "id": "35",
+            "title": "jdn ein|laden zu + Dat ",
+            "answer": "",
+            "example": "Warum	hat	Sebastian uns nicht zu seiner Party	eingeladen?"
+        },
+        {
+            "id": "36",
+            "title": "s. ekeln vor + Dat ",
+            "answer": "",
+            "example": "Meine Frau	ekelt	sich so sehr vor Regenwürmern.	 "
+        },
+        {
+            "id": "37",
+            "title": "s. entscheiden für + Akk ",
+            "answer": "",
+            "example": "Wofür	hat	sich unsere Kollegin	entschieden?"
+        },
+        {
+            "id": "38",
+            "title": "s. entschließen zu + Dat ",
+            "answer": "",
+            "example": "Wozu	habt	ihr euch	entschlossen?"
+        },
+        {
+            "id": "39",
+            "title": "s. entschuldigen für + Akk ",
+            "answer": "",
+            "example": "Liebste Tochter,	hast	du dich bei deiner Mutter für dein schlechtes Benehmen	entschuldigt?"
+        },
+        {
+            "id": "40",
+            "title": "s. erholen von + Dat ",
+            "answer": "",
+            "example": "Jetzt	muss	ich mich von den Strapazen	erholen."
+        },
+        {
+            "id": "41",
+            "title": "s. erinnern an + Akk ",
+            "answer": "",
+            "example": "An ihn	kann	ich mich leider nicht mehr	erinnern."
+        },
+        {
+            "id": "42",
+            "title": "s. erkundigen bei + Dat ",
+            "answer": "",
+            "example": "Ihr	solltet	euch direkt beim Hersteller	erkundigen."
+        },
+        {
+            "id": "43",
+            "title": "s. erkundigen nach + Dat ",
+            "answer": "",
+            "example": "Die Touristen	haben	sich bei uns nach dem Weg	erkundigt."
+        },
+        {
+            "id": "44",
+            "title": "s. ernähren von + Dat ",
+            "answer": "",
+            "example": "Weshalb	ernährt	ihr euch nur von Körnern?	 "
+        },
+        {
+            "id": "45",
+            "title": "jdn erziehen zu + Dat ",
+            "answer": "",
+            "example": "Die Eltern	haben	ihre Kinder recht früh zur Selbständigkeit	erzogen."
+        },
+        {
+            "id": "46",
+            "title": "fliehen vor + Dat ",
+            "answer": "",
+            "example": "Die Tiere	müssen	vor dem hungrigen Wolfsrudel	fliehen."
+        },
+        {
+            "id": "47",
+            "title": "fragen nach + Dat ",
+            "answer": "",
+            "example": "Herr Reichert	hat	schon mehrmals nach Ihnen	gefragt."
+        },
+        {
+            "id": "48",
+            "title": "s. freuen auf + Akk ",
+            "answer": "",
+            "example": "Die Schulkinder	freuen	sich schon auf die Schulferien.	 "
+        },
+        {
+            "id": "49",
+            "title": "s. freuen über + Akk ",
+            "answer": "",
+            "example": "Die Kinder	haben	sich über die vielen Geschenke	gefreut."
+        },
+        {
+            "id": "50",
+            "title": "s. fürchten vor + Dat ",
+            "answer": "",
+            "example": "Warum	fürchten	Sie sich vor einem Gewitter?	 "
+        },
+        {
+            "id": "51",
+            "title": "gehören zu + Dat ",
+            "answer": "",
+            "example": "Zu wem	gehört	dieser kläffende Köter dort?	 "
+        },
+        {
+            "id": "52",
+            "title": "es geht um + Akk ",
+            "answer": "",
+            "example": "Worum	geht	es hier eigentlich?	 "
+        },
+        {
+            "id": "53",
+            "title": "gelten als + Nom ",
+            "answer": "",
+            "example": "Der neue Dozent	gilt	als hervorragender Pädagoge.	 "
+        },
+        {
+            "id": "54",
+            "title": "geraten in + Akk ",
+            "answer": "",
+            "example": "Der junge Mann	gerät	laufend in große Schwierigkeiten.	 "
+        },
+        {
+            "id": "55",
+            "title": "s. gewöhnen an + Akk ",
+            "answer": "",
+            "example": "Ich	kann	mich nicht an das kalte Wetter	gewöhnen."
+        },
+        {
+            "id": "56",
+            "title": "glauben an + Akk ",
+            "answer": "",
+            "example": "Glauben	Sie an die Unsterblichkeit?	 "
+        },
+        {
+            "id": "57",
+            "title": "jdm gratulieren zu + Dat ",
+            "answer": "",
+            "example": "Niemand	hat	ihm zu seinem Geburtstag	gratuliert."
+        },
+        {
+            "id": "58",
+            "title": "handeln mit + Dat ",
+            "answer": "",
+            "example": "Die Firma	handelt	mit elektronischen Bauteilen.	 "
+        },
+        {
+            "id": "59",
+            "title": "handeln von + Dat ",
+            "answer": "",
+            "example": "Wovon	handelt	der neue Film von Stefan Spielberg?	 "
+        },
+        {
+            "id": "60",
+            "title": "s. handeln um + Akk ",
+            "answer": "",
+            "example": "Es	handelt	sich um ihre Tochter.	 "
+        },
+        {
+            "id": "61",
+            "title": "jdm helfen bei + Dat ",
+            "answer": "",
+            "example": "Mama,	kannst	du mir bei den Hausaufgaben	helfen?"
+        },
+        {
+            "id": "62",
+            "title": "hoffen auf + Akk ",
+            "answer": "",
+            "example": "Seit Wochen	hoffen	die Bauern auf besseres Wetter.	 "
+        },
+        {
+            "id": "63",
+            "title": "s. informieren über + Akk ",
+            "answer": "",
+            "example": "Zuerst	solltet	ihr euch über euer Urlaubsland	informieren."
+        },
+
+        {
+            "id": "64",
+            "title": "s. interessieren für + Akk ",
+            "answer": "",
+            "example": "Unsere Tochter	interessiert	sich neuerdings für Motorräder.	 "
+        },
+
+        {
+            "id": "65",
+            "title": "kämpfen für + Akk ",
+            "answer": "",
+            "example": "Die Opposition	will	für mehr soziale Gerechtigkeit	kämpfen."
+        },
+
+        {
+            "id": "66",
+            "title": "kämpfen gegen + Akk ",
+            "answer": "",
+            "example": "Greenpeace	kämpft	gegen die Umweltzerstörung.	 "
+        },
+
+        {
+            "id": "67",
+            "title": "kämpfen um + Akk ",
+            "answer": "",
+            "example": "Ich liebe sie. Ich	werde	wie ein Löwe um sie	kämpfen."
+        },
+
+        {
+            "id": "68",
+            "title": "s. kümmern um + Akk ",
+            "answer": "",
+            "example": "Die Kinder	müssen	sich um ihre kranke Mutter	kümmern."
+        },
+
+        {
+            "id": "69",
+            "title": "lachen über + Akk ",
+            "answer": "",
+            "example": "Warum	lacht	ihr über den alten kranken Bettler?	 "
+        },
+
+        {
+            "id": "70",
+            "title": "leben von + Dat ",
+            "answer": "",
+            "example": "Er arbeitet nie.	Lebt	er vom Geld seiner Frau?	 "
+        },
+
+        {
+            "id": "71",
+            "title": "leiden a + Dat ",
+            "answer": "",
+            "example": "Unsere Nachbarin	leidet	a einer schweren Krankheit.	 "
+        },
+
+        {
+            "id": "72",
+            "title": "nach|denken über + Akk ",
+            "answer": "",
+            "example": "Ich	muss	über deinen Vorschlag zuerst einmal	nachdenken."
+        },
+
+        {
+            "id": "73",
+            "title": "passen zu + Dat ",
+            "answer": "",
+            "example": "Dein neues Kleid	pas	aber nicht zu deiner roten Frisur.	 "
+        },
+
+        {
+            "id": "74",
+            "title": "protestieren gegen + Akk ",
+            "answer": "",
+            "example": "Die Arbeiter	protestieren	lautstark gegen die geplante Lohnkürzung.	 "
+        },
+
+        {
+            "id": "75",
+            "title": "rechnen mit + Dat ",
+            "answer": "",
+            "example": "Im Frühling	muss	man täglich mit Regengüssen	rechnen."
+        },
+
+        {
+            "id": "76",
+            "title": "riechen nach + Dat ",
+            "answer": "",
+            "example": "Wonach	riecht	es hier eigentlich? Etwa nach Gas?	 "
+        },
+
+        {
+            "id": "77",
+            "title": "schießen auf + Akk ",
+            "answer": "",
+            "example": "Die Soldaten	schießen	auf alles, was sich bewegt.	 "
+        },
+
+        {
+            "id": "78",
+            "title": "schimpfen mit + Dat ",
+            "answer": "",
+            "example": "Edmund,	schimpf	doch nicht immer mit deinem Sohn!	 "
+        },
+
+        {
+            "id": "79",
+            "title": "schmecken nach + Dat ",
+            "answer": "",
+            "example": "Warum	schmeckt	der Kuchen eigentlich nach Seife?	 "
+        },
+
+        {
+            "id": "80",
+            "title": "etw schreiben an + Akk ",
+            "answer": "",
+            "example": "Tatjana	hat	an Thomas einen Liebesbrief	geschrieben."
+        },
+
+        {
+            "id": "81",
+            "title": "s. sehnen nach + Dat ",
+            "answer": "",
+            "example": "Wie	sehne	ich mich nach meiner Familie.	 "
+        },
+
+        {
+            "id": "82",
+            "title": "sorgen für + Akk ",
+            "answer": "",
+            "example": "Niemand	sorgt	für die altersschwache Großmutter.	 "
+        },
+
+        {
+            "id": "83",
+            "title": "s. sorgen um + Akk ",
+            "answer": "",
+            "example": "Die Eltern	sorgen	sich um ihre erst 14-jährige Tochter.	 "
+        },
+
+        {
+            "id": "84",
+            "title": "spielen mit + Dat ",
+            "answer": "",
+            "example": "Der große Bruder	will	nicht mit seiner kleineren Schwester	spielen."
+        },
+
+        {
+            "id": "85",
+            "title": "spielen um + Akk ",
+            "answer": "",
+            "example": "Man	sollte	beim Pokern nicht um Haus und Hof	spielen."
+        },
+
+        {
+            "id": "86",
+            "title": "sprechen mit + Dat ",
+            "answer": "",
+            "example": "Hast	du endlich mit deinem Vorgesetzten	gesprochen?"
+        },
+
+        {
+            "id": "87",
+            "title": "sprechen über + Akk ",
+            "answer": "",
+            "example": "Worüber	will	denn unser Klassenlehrer mit uns	sprechen?"
+        },
+
+        {
+            "id": "88",
+            "title": "sprechen von + Dat ",
+            "answer": "",
+            "example": "Von wem	sprichst	du eigentlich?	 "
+        },
+
+        {
+            "id": "89",
+            "title": "sterben an + Dat ",
+            "answer": "",
+            "example": "Unsere Nachbarin	ist	vor kurzem an Brustkrebs	gestorben."
+        },
+
+        {
+            "id": "90",
+            "title": "stimmen für + Akk ",
+            "answer": "",
+            "example": "Für wen	wirst	du	stimmen?"
+        },
+
+        {
+            "id": "91",
+            "title": "stimmen gegen + Akk ",
+            "answer": "",
+            "example": "Auf jeden Fall	stimme	ich gegen die jetzige Koalition.	 "
+        },
+
+        {
+            "id": "92",
+            "title": "s. streiten mit + Dat ",
+            "answer": "",
+            "example": "Warum	müsst	ihr euch immer mit den Nachbarskindern	streiten?"
+        },
+
+        {
+            "id": "93",
+            "title": "(s.) streiten um + Akk ",
+            "answer": "",
+            "example": "Politiker	streiten	(sich) oft um die Haushaltsausgaben.	 "
+        },
+
+        {
+            "id": "94",
+            "title": "suchen nach + Dat ",
+            "answer": "",
+            "example": "Wonach	suchst	du in meinem Schreibtisch?	 "
+        },
+
+        {
+            "id": "95",
+            "title": "teil|nehmen an + Dat ",
+            "answer": "",
+            "example": "Der Schüler	möchte	nicht mehr am Religionsunterricht	teilnehmen."
+        },
+
+        {
+            "id": "96",
+            "title": "telefonieren mit + Dat ",
+            "answer": "",
+            "example": "Mit wem	hast	du die ganze Zeit	telefoniert?"
+        },
+
+        {
+            "id": "97",
+            "title": "träumen von + Dat ",
+            "answer": "",
+            "example": "Die Familie	träumt	von einem eigenen Haus im Grünen.	 "
+        },
+
+        {
+            "id": "98",
+            "title": "jdn überreden zu + zu	 ",
+            "answer": "",
+            "example": "Lass	dich doch zum Ausflug	überreden."
+        },
+
+        {
+            "id": "99",
+            "title": "jdn überzeugen von + Dat ",
+            "answer": "",
+            "example": "Konntest	du deinen Mann von der Reise	überzeugen?"
+        },
+
+        {
+            "id": "100",
+            "title": "s. verabreden mit + Dat ",
+            "answer": "",
+            "example": "Mit ihr	möchte	ich mich gerne mal	verabreden."
+        },
+
+        {
+            "id": "101",
+            "title": "verfügen über + Akk ",
+            "answer": "",
+            "example": "Der Multimillionär	verfügt	über ein geschätztes Vermögen von 500 Millionen Euro.	 "
+        },
+
+        {
+            "id": "102",
+            "title": "etw verlangen von + Dat ",
+            "answer": "",
+            "example": "Deine Frau	verlangt	sehr viel von dir.	 "
+        },
+
+        {
+            "id": "103",
+            "title": "s. verlassen auf + Akk ",
+            "answer": "",
+            "example": "Auf dich	kann	man sich wenigstens	verlassen."
+        },
+
+        {
+            "id": "104",
+            "title": "sich verlieben in + Akk ",
+            "answer": "",
+            "example": "Dein Sohn	hat	sich in meine Tochter	verliebt."
+        },
+
+        {
+            "id": "105",
+            "title": "verstoßen gegen + Akk ",
+            "answer": "",
+            "example": "Der Autofahrer	hat	gegen die Verkehrsregeln	verstoßen."
+        },
+
+        {
+            "id": "106",
+            "title": "s. vertragen mit + Dat ",
+            "answer": "",
+            "example": "Unsere Kinder	vertragen	sich prima mit ihren Neffen.	 "
+        },
+
+        {
+            "id": "107",
+            "title": "s. vor|bereiten auf + Akk ",
+            "answer": "",
+            "example": "Die Studenten	müssen	sich auf eine schwere Prüfung	vorbereiten."
+        },
+
+        {
+            "id": "108",
+            "title": "wählen zu + Dat ",
+            "answer": "",
+            "example": "Karl-Heinz	wurde	gestern zum Klassensprecher	gewählt."
+        },
+
+        {
+            "id": "109",
+            "title": "jdn warnen vor + Dat ",
+            "answer": "",
+            "example": "Niemand	hat	ihn vor den großen Gefahren	gewarnt."
+        },
+
+        {
+            "id": "110",
+            "title": "warten auf + Akk ",
+            "answer": "",
+            "example": "Immer	muss	man auf dich	warten."
+        },
+
+        {
+            "id": "111",
+            "title": "s. wehren gegen + Akk ",
+            "answer": "",
+            "example": "Man	muss	sich gegen Missbrauch	wehren."
+        },
+
+        {
+            "id": "112",
+            "title": "wetten um + Akk ",
+            "answer": "",
+            "example": "Warum	musst	du immer um so viel Geld	wetten?"
+        },
+
+        {
+            "id": "113",
+            "title": "s. wundern über + Akk ",
+            "answer": "",
+            "example": "Darüber	kann	man sich nur	wundern."
+        },
+
+        {
+            "id": "114",
+            "title": "zu|gehen auf + Akk ",
+            "answer": "",
+            "example": "Der Junge	kann	schlecht auf fremde Kinder	zugehen."
+        },
+
+        {
+            "id": "115",
+            "title": "zweifeln an + Dat ",
+            "answer": "",
+            "example": "Niemand	zweifelt	an der Demokratie.	 "
+        },
+        {
+            "id": "116",
+            "title": "leiden u + Dat ",
+            "answer": "",
+            "example": "Sabine	hat	sehr unter ihrem strengen Vater	gelitten."
+        },
+
+    ],
+    "tests": [
+        {
+            "id": "0",
+            "title": "Nomen Verb Verbindungen"
+        },
+        {
+            "id": "1",
+            "title": "Adjektive mit Pröpositionen"
+        }
+    ],
+    "praepositionen":[
+        {
+            "id":"0",
+            "title":" für + Akk"
+        },
+        {
+            "id":"1",
+            "title":" bis + Akk"
+        },
+        {
+            "id":"2",
+            "title":" durch + Akk"
+        },
+        {
+            "id":"3",
+            "title":" gegen + Akk"
+        },
+        {
+            "id":"4",
+            "title":" ohne + Akk"
+        },
+        {
+            "id":"5",
+            "title":" um + Akk"
+        },
+        {
+            "id":"6",
+            "title":" ab + Dat"
+        },
+        {
+            "id":"7",
+            "title":" aus + Dat"
+        },
+        {
+            "id":"8",
+            "title":" bei + Dat"
+        },
+        {
+            "id":"9",
+            "title":" nach + Dat"
+        },
+        {
+            "id":"10",
+            "title":" außer + Dat"
+        },
+        {
+            "id":"11",
+            "title":" seit + Dat"
+        },
+        {
+            "id":"12",
+            "title":" von + Dat"
+        },
+        {
+            "id":"13",
+            "title":" mit + Dat"
+        },
+        {
+            "id":"14",
+            "title":" zu + Dat"
+        },
+        {
+            "id":"15",
+            "title":" in + Dat"
+        },
+        {
+            "id":"16",
+            "title":" vor + Dat"
+        },
+        {
+            "id":"17",
+            "title":" über + Dat"
+        },
+        {
+            "id":"18",
+            "title":" neben + Dat"
+        },
+        {
+            "id":"19",
+            "title":" zwichen + Dat"
+        },
+        {
+            "id":"20",
+            "title":" hinter + Dat"
+        },
+        {
+            "id":"21",
+            "title":" unter + Dat"
+        },
+        {
+            "id":"22",
+            "title":" auf + Dat"
+        },
+        {
+            "id":"23",
+            "title":" an + Dat"
+        },
+        {
+            "id":"24",
+            "title":" in + Akk"
+        },
+        {
+            "id":"25",
+            "title":" vor + Akk"
+        },
+        {
+            "id":"26",
+            "title":" über + Akk"
+        },
+        {
+            "id":"27",
+            "title":" neben + Akk"
+        },
+        {
+            "id":"28",
+            "title":" zwichen + Akk"
+        },
+        {
+            "id":"29",
+            "title":" hinter + Akk"
+        },
+        {
+            "id":"30",
+            "title":" unter + Akk"
+        },
+        {
+            "id":"31",
+            "title":" auf + Akk"
+        },
+        {
+            "id":"32",
+            "title":" an + Akk"
+        }
+
     ]
 }
+
+
