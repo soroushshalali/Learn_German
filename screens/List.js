@@ -25,11 +25,11 @@ const List = (props) => {
     }
 
     function listSelect(list, item) {
-        if (list == 'AdjMitPro') {
+        if (list == 'AdjMitPro' || list == 'verbMitPro') {
             return (
-                <Text style={styles.btnText} >{item.title}{praepositionen[item.answer].title}</Text>
+                <Text style={styles.btnText} >{item.title}{praepositionen[Number(item.answer)].title}</Text>
             );
-        } else if (list == 'NomVerbVerbin' || list == 'Brief' || list == 'verbMitPro' || list == 'Test') {
+        } else if (list == 'NomVerbVerbin' || list == 'Brief' || list == 'Test') {
             return (
                 <Text style={styles.btnText} >{item.title}{item.answer}</Text>
             );

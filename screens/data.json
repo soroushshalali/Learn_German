@@ -624,756 +624,756 @@
     "verbMitPro":[
         {
             "id": "0",
-            "title": "ab|hängen von + Dat ",
-            "answer": "",
+            "title": "ab|hängen ",
+            "answer": "12",
             "example": "Ob ich mitkomme,	hängt	vom Wetter	ab."
         },
         {
             "id": "1",
-            "title": "achten auf + Akk ",
-            "answer": "",
+            "title": "achten ",
+            "answer": "31",
             "example": "Achte	immer auf den Straßenverkehr!	 "
         },
         {
             "id": "2",
-            "title": "etw ändern an + Dat ",
-            "answer": "",
+            "title": "etw ändern ",
+            "answer": "23",
             "example": "Er	sollte	unbedingt etwas an seinem Aussehen	ändern."
         },
         {
             "id": "3",
-            "title": "etw an|fangen mit + Dat ",
-            "answer": "",
+            "title": "etw an|fangen ",
+            "answer": "13",
             "example": "Der Rentner	kann	mit seiner Freizeit nichts	anfangen."
         },
         {
             "id": "4",
-            "title": "s. ängstigen um + Akk ",
-            "answer": "",
+            "title": "s. ängstigen  ",
+            "answer": "5",
             "example": "Die Mutter	ängstigt	sich um ihre kleine Tochter.	 "
         },
         {
             "id": "5",
-            "title": "an|kommen auf + Akk ",
-            "answer": "",
+            "title": "an|kommen ",
+            "answer": "31",
             "example": "Es	kommt	darauf	an."
         },
         {
             "id": "6",
-            "title": "jdn an|sehen als + Akk ",
-            "answer": "",
+            "title": "jdn an|sehen ",
+            "answer": "33",
             "example": "Die Angestellten	sehen	Herrn A. nicht als Respektperson	an."
         },
         {
             "id": "7",
-            "title": "antworten auf + Akk ",
-            "answer": "",
+            "title": "antworten ",
+            "answer": "31",
             "example": "Warum	antworten	Sie nicht auf meine Fragen?	 "
         },
         {
             "id": "8",
-            "title": "arbeiten als + Nom ",
-            "answer": "",
+            "title": "arbeiten ",
+            "answer": "34",
             "example": "Herr Meier	hat	früher als angelernter Maurer	gearbeitet."
         },
         {
             "id": "9",
-            "title": "arbeiten an + Dat ",
-            "answer": "",
+            "title": "arbeiten ",
+            "answer": "23",
             "example": "Im Sprachlabor	können	viele Asiaten an ihrer Aussprache	arbeiten."
         },
         {
             "id": "10",
-            "title": "arbeiten bei + Dat ",
-            "answer": "",
+            "title": "arbeiten ",
+            "answer": "8",
             "example": "Mein Neffe	arbeitet	bei der Telekom in Hamburg.	 "
         },
         {
             "id": "11",
-            "title": "s. ärgern über + Akk ",
-            "answer": "",
+            "title": "s. ärgern ",
+            "answer": "26",
             "example": "Ständig	ärgert	sich mein Chef über die Banken.	 "
         },
         {
             "id": "12",
-            "title": "auf|hören mit + Dat ",
-            "answer": "",
+            "title": "auf|hören ",
+            "answer": "13",
             "example": "Wann	hörst	du endlich mit deiner Nörgelei	auf?"
         },
         {
             "id": "13",
-            "title": "auf|passen auf + Akk ",
-            "answer": "",
+            "title": "auf|passen ",
+            "answer": "31",
             "example": "Pass	ja gut auf deine kleine Schwester	auf."
         },
         {
             "id": "14",
-            "title": "s. auf|regen über + Akk ",
-            "answer": "",
+            "title": "s. auf|regen ",
+            "answer": "26",
             "example": "Warum	regst	du dich immer über alles	auf?"
         },
         {
             "id": "15",
-            "title": "aus|geben für + Akk ",
-            "answer": "",
+            "title": "aus|geben ",
+            "answer": "0",
             "example": "Wofür	gibst	du dein ganzes Geld	aus?"
         },
         {
             "id": "16",
-            "title": "s. bedanken bei + Dat ",
-            "answer": "",
+            "title": "s. bedanken ",
+            "answer": "8",
             "example": "Wir	müssen	uns bei Herrn Gruls	bedanken."
         },
         {
             "id": "17",
-            "title": "s. bedanken für + Akk ",
-            "answer": "",
+            "title": "s. bedanken ",
+            "answer": "0",
             "example": "Wir	müssen	uns bei ihm für seine Hilfe	bedanken."
         },
         {
             "id": "18",
-            "title": "s. beeilen mit + Dat ",
-            "answer": "",
+            "title": "s. beeilen ",
+            "answer": "13",
             "example": "Bitte	beeil	dich mit deinen Hausaufgaben.	 "
         },
         {
             "id": "19",
-            "title": "beginnen mit + Dat ",
-            "answer": "",
+            "title": "beginnen ",
+            "answer": "13",
             "example": "Nach dem Essen	könnten	wir mit dem Aufräumen	beginnen."
         },
         {
             "id": "20",
-            "title": "s. beklagen bei + Dat ",
-            "answer": "",
+            "title": "s. beklagen ",
+            "answer": "8",
             "example": "Dein Nachbar	hat	sich beim Hausmeister	beklagt."
         },
         {
             "id": "21",
-            "title": "s. beklagen über + Akk ",
-            "answer": "",
+            "title": "s. beklagen ",
+            "answer": "26",
             "example": "Die alte Dame	hat	sich über Ihren Hund	beklagt."
         },
         {
             "id": "22",
-            "title": "s. bemühen um + Akk ",
-            "answer": "",
+            "title": "s. bemühen  ",
+            "answer": "5",
             "example": "Karl	bemüht	sich schon seit Monaten um einen neuen Job.	 "
         },
         {
             "id": "23",
-            "title": "berichten über + Akk ",
-            "answer": "",
+            "title": "berichten ",
+            "answer": "26",
             "example": "Worüber	hat	der Journalist so lange	berichtet?"
         },
         {
             "id": "24",
-            "title": "s. beschweren bei + Dat ",
-            "answer": "",
+            "title": "s. beschweren ",
+            "answer": "8",
             "example": "Der Sohn	hat	sich bei seiner Mutter	beschwert."
         },
         {
             "id": "25",
-            "title": "s. beschweren über + Akk ",
-            "answer": "",
+            "title": "s. beschweren ",
+            "answer": "26",
             "example": "Der Sohn	hat	sich bei ihr über seinen Vater	beschwert."
         },
         {
             "id": "26",
-            "title": "s. bewerben um + Akk ",
-            "answer": "",
+            "title": "s. bewerben  ",
+            "answer": "5",
             "example": "Florian	hat	sich um die Stelle als Buchhalter	beworben."
         },
         {
             "id": "27",
-            "title": "s. bezeichnen als + Akk ",
-            "answer": "",
+            "title": "s. bezeichnen ",
+            "answer": "33",
             "example": "Franz-Joseph	bezeichnet	sich selbst als Alkoholiker.	 "
         },
         {
             "id": "28",
-            "title": "jdn bitten um + um	 ",
-            "answer": "",
+            "title": "bitten ",
+            "answer": "5",
             "example": "Dürfte	ich Sie um diesen Tanz	bitten?"
         },
         {
             "id": "29",
-            "title": "jdn bringen zu + Dat ",
-            "answer": "",
+            "title": "jdn bringen ",
+            "answer": "14",
             "example": "Dieser Mann	bringt	mich noch zum Wahnsinn.	 "
         },
         {
             "id": "30",
-            "title": "jdm danken für + Akk ",
-            "answer": "",
+            "title": "jdm danken ",
+            "answer": "0",
             "example": "Der Fremde	dankt	mir für meine Hilfe.	 "
         },
         {
             "id": "31",
-            "title": "denken an + Akk ",
-            "answer": "",
+            "title": "denken ",
+            "answer": "32",
             "example": "Im Urlaub	habe	ich immer nur an dich	gedacht."
         },
         {
             "id": "32",
-            "title": "s. eignen für + Akk ",
-            "answer": "",
+            "title": "s. eignen ",
+            "answer": "0",
             "example": "Dafür	eignet	sich das Material nicht.	 "
         },
         {
             "id": "33",
-            "title": "s. einigen auf + Akk ",
-            "answer": "",
+            "title": "s. einigen ",
+            "answer": "31",
             "example": "Worauf	habt	ihr euch	geeinigt?"
         },
         {
             "id": "34",
-            "title": "s. einigen mit + Dat ",
-            "answer": "",
+            "title": "s. einigen ",
+            "answer": "13",
             "example": "Worauf	habt	ihr euch mit dem Vorstand	geeinigt?"
         },
         {
             "id": "35",
-            "title": "jdn ein|laden zu + Dat ",
-            "answer": "",
+            "title": "jdn ein|laden ",
+            "answer": "14",
             "example": "Warum	hat	Sebastian uns nicht zu seiner Party	eingeladen?"
         },
         {
             "id": "36",
-            "title": "s. ekeln vor + Dat ",
-            "answer": "",
+            "title": "s. ekeln ",
+            "answer": "16",
             "example": "Meine Frau	ekelt	sich so sehr vor Regenwürmern.	 "
         },
         {
             "id": "37",
-            "title": "s. entscheiden für + Akk ",
-            "answer": "",
+            "title": "s. entscheiden ",
+            "answer": "0",
             "example": "Wofür	hat	sich unsere Kollegin	entschieden?"
         },
         {
             "id": "38",
-            "title": "s. entschließen zu + Dat ",
-            "answer": "",
+            "title": "s. entschließen ",
+            "answer": "14",
             "example": "Wozu	habt	ihr euch	entschlossen?"
         },
         {
             "id": "39",
-            "title": "s. entschuldigen für + Akk ",
-            "answer": "",
+            "title": "s. entschuldigen ",
+            "answer": "0",
             "example": "Liebste Tochter,	hast	du dich bei deiner Mutter für dein schlechtes Benehmen	entschuldigt?"
         },
         {
             "id": "40",
-            "title": "s. erholen von + Dat ",
-            "answer": "",
+            "title": "s. erholen ",
+            "answer": "12",
             "example": "Jetzt	muss	ich mich von den Strapazen	erholen."
         },
         {
             "id": "41",
-            "title": "s. erinnern an + Akk ",
-            "answer": "",
+            "title": "s. erinnern ",
+            "answer": "32",
             "example": "An ihn	kann	ich mich leider nicht mehr	erinnern."
         },
         {
             "id": "42",
-            "title": "s. erkundigen bei + Dat ",
-            "answer": "",
+            "title": "s. erkundigen ",
+            "answer": "8",
             "example": "Ihr	solltet	euch direkt beim Hersteller	erkundigen."
         },
         {
             "id": "43",
-            "title": "s. erkundigen nach + Dat ",
-            "answer": "",
+            "title": "s. erkundigen  ",
+            "answer": "9",
             "example": "Die Touristen	haben	sich bei uns nach dem Weg	erkundigt."
         },
         {
             "id": "44",
-            "title": "s. ernähren von + Dat ",
-            "answer": "",
+            "title": "s. ernähren ",
+            "answer": "12",
             "example": "Weshalb	ernährt	ihr euch nur von Körnern?	 "
         },
         {
             "id": "45",
-            "title": "jdn erziehen zu + Dat ",
-            "answer": "",
+            "title": "jdn erziehen ",
+            "answer": "14",
             "example": "Die Eltern	haben	ihre Kinder recht früh zur Selbständigkeit	erzogen."
         },
         {
             "id": "46",
-            "title": "fliehen vor + Dat ",
-            "answer": "",
+            "title": "fliehen ",
+            "answer": "16",
             "example": "Die Tiere	müssen	vor dem hungrigen Wolfsrudel	fliehen."
         },
         {
             "id": "47",
-            "title": "fragen nach + Dat ",
-            "answer": "",
+            "title": "fragen  ",
+            "answer": "9",
             "example": "Herr Reichert	hat	schon mehrmals nach Ihnen	gefragt."
         },
         {
             "id": "48",
-            "title": "s. freuen auf + Akk ",
-            "answer": "",
+            "title": "s. freuen ",
+            "answer": "31",
             "example": "Die Schulkinder	freuen	sich schon auf die Schulferien.	 "
         },
         {
             "id": "49",
-            "title": "s. freuen über + Akk ",
-            "answer": "",
+            "title": "s. freuen ",
+            "answer": "26",
             "example": "Die Kinder	haben	sich über die vielen Geschenke	gefreut."
         },
         {
             "id": "50",
-            "title": "s. fürchten vor + Dat ",
-            "answer": "",
+            "title": "s. fürchten ",
+            "answer": "16",
             "example": "Warum	fürchten	Sie sich vor einem Gewitter?	 "
         },
         {
             "id": "51",
-            "title": "gehören zu + Dat ",
-            "answer": "",
+            "title": "gehören ",
+            "answer": "14",
             "example": "Zu wem	gehört	dieser kläffende Köter dort?	 "
         },
         {
             "id": "52",
-            "title": "es geht um + Akk ",
-            "answer": "",
+            "title": "es geht  ",
+            "answer": "5",
             "example": "Worum	geht	es hier eigentlich?	 "
         },
         {
             "id": "53",
-            "title": "gelten als + Nom ",
-            "answer": "",
+            "title": "gelten ",
+            "answer": "34",
             "example": "Der neue Dozent	gilt	als hervorragender Pädagoge.	 "
         },
         {
             "id": "54",
-            "title": "geraten in + Akk ",
-            "answer": "",
+            "title": "geraten ",
+            "answer": "24",
             "example": "Der junge Mann	gerät	laufend in große Schwierigkeiten.	 "
         },
         {
             "id": "55",
-            "title": "s. gewöhnen an + Akk ",
-            "answer": "",
+            "title": "s. gewöhnen ",
+            "answer": "32",
             "example": "Ich	kann	mich nicht an das kalte Wetter	gewöhnen."
         },
         {
             "id": "56",
-            "title": "glauben an + Akk ",
-            "answer": "",
+            "title": "glauben ",
+            "answer": "32",
             "example": "Glauben	Sie an die Unsterblichkeit?	 "
         },
         {
             "id": "57",
-            "title": "jdm gratulieren zu + Dat ",
-            "answer": "",
+            "title": "jdm gratulieren ",
+            "answer": "14",
             "example": "Niemand	hat	ihm zu seinem Geburtstag	gratuliert."
         },
         {
             "id": "58",
-            "title": "handeln mit + Dat ",
-            "answer": "",
+            "title": "handeln ",
+            "answer": "13",
             "example": "Die Firma	handelt	mit elektronischen Bauteilen.	 "
         },
         {
             "id": "59",
-            "title": "handeln von + Dat ",
-            "answer": "",
+            "title": "handeln ",
+            "answer": "12",
             "example": "Wovon	handelt	der neue Film von Stefan Spielberg?	 "
         },
         {
             "id": "60",
-            "title": "s. handeln um + Akk ",
-            "answer": "",
+            "title": "s. handeln  ",
+            "answer": "5",
             "example": "Es	handelt	sich um ihre Tochter.	 "
         },
         {
             "id": "61",
-            "title": "jdm helfen bei + Dat ",
-            "answer": "",
+            "title": "jdm helfen ",
+            "answer": "8",
             "example": "Mama,	kannst	du mir bei den Hausaufgaben	helfen?"
         },
         {
             "id": "62",
-            "title": "hoffen auf + Akk ",
-            "answer": "",
+            "title": "hoffen ",
+            "answer": "31",
             "example": "Seit Wochen	hoffen	die Bauern auf besseres Wetter.	 "
         },
         {
             "id": "63",
-            "title": "s. informieren über + Akk ",
-            "answer": "",
+            "title": "s. informieren ",
+            "answer": "26",
             "example": "Zuerst	solltet	ihr euch über euer Urlaubsland	informieren."
         },
 
         {
             "id": "64",
-            "title": "s. interessieren für + Akk ",
-            "answer": "",
+            "title": "s. interessieren ",
+            "answer": "0",
             "example": "Unsere Tochter	interessiert	sich neuerdings für Motorräder.	 "
         },
 
         {
             "id": "65",
-            "title": "kämpfen für + Akk ",
-            "answer": "",
+            "title": "kämpfen ",
+            "answer": "0",
             "example": "Die Opposition	will	für mehr soziale Gerechtigkeit	kämpfen."
         },
 
         {
             "id": "66",
-            "title": "kämpfen gegen + Akk ",
-            "answer": "",
+            "title": "kämpfen ",
+            "answer": "3",
             "example": "Greenpeace	kämpft	gegen die Umweltzerstörung.	 "
         },
 
         {
             "id": "67",
-            "title": "kämpfen um + Akk ",
-            "answer": "",
+            "title": "kämpfen  ",
+            "answer": "5",
             "example": "Ich liebe sie. Ich	werde	wie ein Löwe um sie	kämpfen."
         },
 
         {
             "id": "68",
-            "title": "s. kümmern um + Akk ",
-            "answer": "",
+            "title": "s. kümmern  ",
+            "answer": "5",
             "example": "Die Kinder	müssen	sich um ihre kranke Mutter	kümmern."
         },
 
         {
             "id": "69",
-            "title": "lachen über + Akk ",
-            "answer": "",
+            "title": "lachen ",
+            "answer": "26",
             "example": "Warum	lacht	ihr über den alten kranken Bettler?	 "
         },
 
         {
             "id": "70",
-            "title": "leben von + Dat ",
-            "answer": "",
+            "title": "leben ",
+            "answer": "12",
             "example": "Er arbeitet nie.	Lebt	er vom Geld seiner Frau?	 "
         },
 
         {
             "id": "71",
-            "title": "leiden a + Dat ",
-            "answer": "",
+            "title": "leiden an + Dat ",
+            "answer": "23",
             "example": "Unsere Nachbarin	leidet	a einer schweren Krankheit.	 "
         },
 
         {
             "id": "72",
-            "title": "nach|denken über + Akk ",
-            "answer": "",
+            "title": "nach|denken ",
+            "answer": "26",
             "example": "Ich	muss	über deinen Vorschlag zuerst einmal	nachdenken."
         },
 
         {
             "id": "73",
-            "title": "passen zu + Dat ",
-            "answer": "",
+            "title": "passen ",
+            "answer": "14",
             "example": "Dein neues Kleid	pas	aber nicht zu deiner roten Frisur.	 "
         },
 
         {
             "id": "74",
-            "title": "protestieren gegen + Akk ",
-            "answer": "",
+            "title": "protestieren ",
+            "answer": "3",
             "example": "Die Arbeiter	protestieren	lautstark gegen die geplante Lohnkürzung.	 "
         },
 
         {
             "id": "75",
-            "title": "rechnen mit + Dat ",
-            "answer": "",
+            "title": "rechnen ",
+            "answer": "13",
             "example": "Im Frühling	muss	man täglich mit Regengüssen	rechnen."
         },
 
         {
             "id": "76",
-            "title": "riechen nach + Dat ",
-            "answer": "",
+            "title": "riechen  ",
+            "answer": "9",
             "example": "Wonach	riecht	es hier eigentlich? Etwa nach Gas?	 "
         },
 
         {
             "id": "77",
-            "title": "schießen auf + Akk ",
-            "answer": "",
+            "title": "schießen ",
+            "answer": "31",
             "example": "Die Soldaten	schießen	auf alles, was sich bewegt.	 "
         },
 
         {
             "id": "78",
-            "title": "schimpfen mit + Dat ",
-            "answer": "",
+            "title": "schimpfen ",
+            "answer": "13",
             "example": "Edmund,	schimpf	doch nicht immer mit deinem Sohn!	 "
         },
 
         {
             "id": "79",
-            "title": "schmecken nach + Dat ",
-            "answer": "",
+            "title": "schmecken  ",
+            "answer": "9",
             "example": "Warum	schmeckt	der Kuchen eigentlich nach Seife?	 "
         },
 
         {
             "id": "80",
-            "title": "etw schreiben an + Akk ",
-            "answer": "",
+            "title": "etw schreiben ",
+            "answer": "32",
             "example": "Tatjana	hat	an Thomas einen Liebesbrief	geschrieben."
         },
 
         {
             "id": "81",
-            "title": "s. sehnen nach + Dat ",
-            "answer": "",
+            "title": "s. sehnen  ",
+            "answer": "9",
             "example": "Wie	sehne	ich mich nach meiner Familie.	 "
         },
 
         {
             "id": "82",
-            "title": "sorgen für + Akk ",
-            "answer": "",
+            "title": "sorgen ",
+            "answer": "0",
             "example": "Niemand	sorgt	für die altersschwache Großmutter.	 "
         },
 
         {
             "id": "83",
-            "title": "s. sorgen um + Akk ",
-            "answer": "",
+            "title": "s. sorgen  ",
+            "answer": "5",
             "example": "Die Eltern	sorgen	sich um ihre erst 14-jährige Tochter.	 "
         },
 
         {
             "id": "84",
-            "title": "spielen mit + Dat ",
-            "answer": "",
+            "title": "spielen ",
+            "answer": "13",
             "example": "Der große Bruder	will	nicht mit seiner kleineren Schwester	spielen."
         },
 
         {
             "id": "85",
-            "title": "spielen um + Akk ",
-            "answer": "",
+            "title": "spielen  ",
+            "answer": "5",
             "example": "Man	sollte	beim Pokern nicht um Haus und Hof	spielen."
         },
 
         {
             "id": "86",
-            "title": "sprechen mit + Dat ",
-            "answer": "",
+            "title": "sprechen ",
+            "answer": "13",
             "example": "Hast	du endlich mit deinem Vorgesetzten	gesprochen?"
         },
 
         {
             "id": "87",
-            "title": "sprechen über + Akk ",
-            "answer": "",
+            "title": "sprechen ",
+            "answer": "26",
             "example": "Worüber	will	denn unser Klassenlehrer mit uns	sprechen?"
         },
 
         {
             "id": "88",
-            "title": "sprechen von + Dat ",
-            "answer": "",
+            "title": "sprechen ",
+            "answer": "12",
             "example": "Von wem	sprichst	du eigentlich?	 "
         },
 
         {
             "id": "89",
-            "title": "sterben an + Dat ",
-            "answer": "",
+            "title": "sterben ",
+            "answer": "23",
             "example": "Unsere Nachbarin	ist	vor kurzem an Brustkrebs	gestorben."
         },
 
         {
             "id": "90",
-            "title": "stimmen für + Akk ",
-            "answer": "",
+            "title": "stimmen ",
+            "answer": "0",
             "example": "Für wen	wirst	du	stimmen?"
         },
 
         {
             "id": "91",
-            "title": "stimmen gegen + Akk ",
-            "answer": "",
+            "title": "stimmen ",
+            "answer": "3",
             "example": "Auf jeden Fall	stimme	ich gegen die jetzige Koalition.	 "
         },
 
         {
             "id": "92",
-            "title": "s. streiten mit + Dat ",
-            "answer": "",
+            "title": "s. streiten ",
+            "answer": "13",
             "example": "Warum	müsst	ihr euch immer mit den Nachbarskindern	streiten?"
         },
 
         {
             "id": "93",
-            "title": "(s.) streiten um + Akk ",
-            "answer": "",
+            "title": "(s.) streiten  ",
+            "answer": "5",
             "example": "Politiker	streiten	(sich) oft um die Haushaltsausgaben.	 "
         },
 
         {
             "id": "94",
-            "title": "suchen nach + Dat ",
-            "answer": "",
+            "title": "suchen  ",
+            "answer": "9",
             "example": "Wonach	suchst	du in meinem Schreibtisch?	 "
         },
 
         {
             "id": "95",
-            "title": "teil|nehmen an + Dat ",
-            "answer": "",
+            "title": "teil|nehmen ",
+            "answer": "23",
             "example": "Der Schüler	möchte	nicht mehr am Religionsunterricht	teilnehmen."
         },
 
         {
             "id": "96",
-            "title": "telefonieren mit + Dat ",
-            "answer": "",
+            "title": "telefonieren ",
+            "answer": "13",
             "example": "Mit wem	hast	du die ganze Zeit	telefoniert?"
         },
 
         {
             "id": "97",
-            "title": "träumen von + Dat ",
-            "answer": "",
+            "title": "träumen ",
+            "answer": "12",
             "example": "Die Familie	träumt	von einem eigenen Haus im Grünen.	 "
         },
 
         {
             "id": "98",
-            "title": "jdn überreden zu + zu	 ",
-            "answer": "",
+            "title": "jdn überreden ",
+            "answer": "14",
             "example": "Lass	dich doch zum Ausflug	überreden."
         },
 
         {
             "id": "99",
-            "title": "jdn überzeugen von + Dat ",
-            "answer": "",
+            "title": "jdn überzeugen ",
+            "answer": "12",
             "example": "Konntest	du deinen Mann von der Reise	überzeugen?"
         },
 
         {
             "id": "100",
-            "title": "s. verabreden mit + Dat ",
-            "answer": "",
+            "title": "s. verabreden ",
+            "answer": "13",
             "example": "Mit ihr	möchte	ich mich gerne mal	verabreden."
         },
 
         {
             "id": "101",
-            "title": "verfügen über + Akk ",
-            "answer": "",
+            "title": "verfügen ",
+            "answer": "26",
             "example": "Der Multimillionär	verfügt	über ein geschätztes Vermögen von 500 Millionen Euro.	 "
         },
 
         {
             "id": "102",
-            "title": "etw verlangen von + Dat ",
-            "answer": "",
+            "title": "etw verlangen ",
+            "answer": "12",
             "example": "Deine Frau	verlangt	sehr viel von dir.	 "
         },
 
         {
             "id": "103",
-            "title": "s. verlassen auf + Akk ",
-            "answer": "",
+            "title": "s. verlassen ",
+            "answer": "31",
             "example": "Auf dich	kann	man sich wenigstens	verlassen."
         },
 
         {
             "id": "104",
-            "title": "sich verlieben in + Akk ",
-            "answer": "",
+            "title": "sich verlieben ",
+            "answer": "24",
             "example": "Dein Sohn	hat	sich in meine Tochter	verliebt."
         },
 
         {
             "id": "105",
-            "title": "verstoßen gegen + Akk ",
-            "answer": "",
+            "title": "verstoßen ",
+            "answer": "3",
             "example": "Der Autofahrer	hat	gegen die Verkehrsregeln	verstoßen."
         },
 
         {
             "id": "106",
-            "title": "s. vertragen mit + Dat ",
-            "answer": "",
+            "title": "s. vertragen ",
+            "answer": "13",
             "example": "Unsere Kinder	vertragen	sich prima mit ihren Neffen.	 "
         },
 
         {
             "id": "107",
-            "title": "s. vor|bereiten auf + Akk ",
-            "answer": "",
+            "title": "s. vor|bereiten ",
+            "answer": "31",
             "example": "Die Studenten	müssen	sich auf eine schwere Prüfung	vorbereiten."
         },
 
         {
             "id": "108",
-            "title": "wählen zu + Dat ",
-            "answer": "",
+            "title": "wählen ",
+            "answer": "14",
             "example": "Karl-Heinz	wurde	gestern zum Klassensprecher	gewählt."
         },
 
         {
             "id": "109",
-            "title": "jdn warnen vor + Dat ",
-            "answer": "",
+            "title": "jdn warnen ",
+            "answer": "16",
             "example": "Niemand	hat	ihn vor den großen Gefahren	gewarnt."
         },
 
         {
             "id": "110",
-            "title": "warten auf + Akk ",
-            "answer": "",
+            "title": "warten ",
+            "answer": "31",
             "example": "Immer	muss	man auf dich	warten."
         },
 
         {
             "id": "111",
-            "title": "s. wehren gegen + Akk ",
-            "answer": "",
+            "title": "s. wehren ",
+            "answer": "3",
             "example": "Man	muss	sich gegen Missbrauch	wehren."
         },
 
         {
             "id": "112",
-            "title": "wetten um + Akk ",
-            "answer": "",
+            "title": "wetten  ",
+            "answer": "5",
             "example": "Warum	musst	du immer um so viel Geld	wetten?"
         },
 
         {
             "id": "113",
-            "title": "s. wundern über + Akk ",
-            "answer": "",
+            "title": "s. wundern ",
+            "answer": "26",
             "example": "Darüber	kann	man sich nur	wundern."
         },
 
         {
             "id": "114",
-            "title": "zu|gehen auf + Akk ",
-            "answer": "",
+            "title": "zu|gehen ",
+            "answer": "31",
             "example": "Der Junge	kann	schlecht auf fremde Kinder	zugehen."
         },
 
         {
             "id": "115",
-            "title": "zweifeln an + Dat ",
-            "answer": "",
+            "title": "zweifeln ",
+            "answer": "23",
             "example": "Niemand	zweifelt	an der Demokratie.	 "
         },
         {
             "id": "116",
-            "title": "leiden u + Dat ",
-            "answer": "",
+            "title": "leiden ",
+            "answer": "21",
             "example": "Sabine	hat	sehr unter ihrem strengen Vater	gelitten."
         },
 
@@ -1386,6 +1386,10 @@
         {
             "id": "1",
             "title": "Adjektive mit Pröpositionen"
+        },
+        {
+            "id": "2",
+            "title": "Verben mit Pröpositionen"
         }
     ],
     "praepositionen":[
@@ -1520,6 +1524,14 @@
         {
             "id":"32",
             "title":" an + Akk"
+        },
+        {
+            "id":"33",
+            "title":" als + Akk"
+        },
+        {
+            "id":"34",
+            "title":" als + Nom"
         }
 
     ]
