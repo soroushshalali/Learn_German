@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Text, View, StyleSheet, Pressable } from 'react-native';
 import data from './data.json';
+import { ShowResult } from './ShowResult';
 
 const TestNomVerv = (props) => {
 
@@ -57,12 +58,11 @@ const TestNomVerv = (props) => {
     const [background, setBackground] = useState([]);
     const [selected, setSelected] = useState(false);
     const [correctCounter, setCorrectCounter] = useState(0);
-
-    console.log(questionNumbers);
-    console.log(options);
+    const [falseAnswers, setFalseAnswers] = useState([]);
 
     function Check(ansNum) {
         let backColor = [];
+        let fAnswers = falseAnswers;
         if (!selected) {
             if (dataTest[options[counter - 1][ansNum]].id == dataTest[questionNumbers[counter - 1]].id) {
                 backColor[ansNum] = { backgroundColor: 'green' }
@@ -72,11 +72,14 @@ const TestNomVerv = (props) => {
                 for (let i = 0; i <= 2; i++) {
                     if (dataTest[options[counter - 1][i]].id == dataTest[questionNumbers[counter - 1]].id) {
                         backColor[i] = { backgroundColor: 'green' }
+                        fAnswers.push(Number(dataTest[questionNumbers[counter - 1]].id));
+                        setFalseAnswers(fAnswers);
                     }
                 }
             }
             setBackground(backColor);
             setSelected(true);
+            console.log(falseAnswers);
         }
     }
 
@@ -128,9 +131,7 @@ const TestNomVerv = (props) => {
         );
     } else {
         return (
-            <View>
-                <Text>{correctCounter}/10</Text>
-            </View>
+            <ShowResult {...props} correctCounter={correctCounter} falseAnswers={falseAnswers} />
         );
     }
 

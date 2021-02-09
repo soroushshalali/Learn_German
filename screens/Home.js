@@ -7,7 +7,6 @@ const Home = (props) => {
 
     return (
         <View style={styles.container} >
-            
             <Text>
                 {/* <Icon name="ios-person" size={30} color="#4F8EF7" /> */}
             </Text>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Text, View, StyleSheet, ScrollView } from 'react-native';
-import data from './data.json'
 
 const Beispiel = (props) => {
     const [example, setExample] = useState(props.route.params.flagData);
