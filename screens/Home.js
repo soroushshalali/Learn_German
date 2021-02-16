@@ -11,7 +11,10 @@ const Home = (props) => {
                 {/* <Icon name="ios-person" size={30} color="#4F8EF7" /> */}
             </Text>
             <Pressable style={styles.btn}
-                onPress={() => props.navigation.navigate('List', { data: data.briefe, flag: 'Brief' })}
+                onPress={() => props.navigation.navigate('List', {
+                    data: data.briefe,
+                    flag: 'Brief',
+                })}
             >
                 <View>
                     <Text style={styles.btnText} >Briefe</Text>
@@ -20,7 +23,7 @@ const Home = (props) => {
             <Pressable style={styles.btn}
                 onPress={() => props.navigation.navigate('List', {
                     data: data.NomVerbVerbin,
-                    flag: 'NomVerbVerbin'
+                    flag: 'NomVerbVerbin',
                 })}
             >
                 <View>
@@ -50,7 +53,11 @@ const Home = (props) => {
                 </View>
             </Pressable>
             <Pressable style={styles.btn}
-                onPress={() => props.navigation.navigate('List', { data: data.tests, flag: 'Test' })}
+                onPress={() => props.navigation.navigate('List', {
+                    data: data.tests,
+                    flag: 'Test',
+                    hideSearchBar: true,
+                })}
             >
                 <View>
                     <Text style={[styles.btnText, { fontSize: 17 }]} >Test</Text>

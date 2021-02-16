@@ -1,28 +1,33 @@
 import React, { useState } from 'react';
-import { Text, View, StyleSheet, Pressable, Button } from 'react-native';
+import { Text, View, StyleSheet, Pressable, TextInput } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import data from './data.json';
+import { Help } from './Help';
 
 const List = (props) => {
     const [params, setParams] = useState(props.route.params);
+    const [dataList, setDataList] = useState(params.data);
     const [praepositionen, setPraepositionen] = useState(data.praepositionen);
-    const [help, setHelp] = useState(props.route.params.help);
-    const [helpComponent, sethelpComponent] = useState(false);
-    const helpHandler = (flag) => {
-        if (flag) {
-            return (
-                <View style={styles.helpContainer}
-                >
-                    <Pressable
-                        onPress={() => sethelpComponent(!helpComponent)}
-                        style={styles.helpBtn}
-                    >
-                        <Text style={styles.helpText} >&#9783;</Text>
-                    </Pressable>
-                </View>
-            );
+
+    const [searchVal, setSearchVal] = useState('');
+
+    const search = (text) => {
+        let str, n;
+        let results = [];
+            for (let i = 0; i < params.data.length; i++) {
+                str = params.data[i].title.toUpperCase().trim();
+                n = str.search(text.toUpperCase().trim());
+                if (n !== -1) {
+                    results.push(params.data[i]);
+                }
+            }
+        if (results[0] !== undefined) {
+            setDataList(results);
+        } else {
+            setDataList(params.data);
         }
     }
+
 
     function listSelect(list, item) {
         if (list == 'AdjMitPro' || list == 'verbMitPro') {
@@ -37,19 +42,33 @@ const List = (props) => {
     }
     return (
         <View style={styles.container} >
-            {helpHandler(help)}
-            <View style={[styles.helpComponent, { top: helpComponent ? '1.5%' : '100%' }]} >
-                <Text style={{ color: '#fff' }} >
-                    etw = Sache + Akkusativ{'\n'}
-                    jdn = Person + Akkusativ{'\n'}
-                    s. = Reflexivpronomen + Akkusativ{'\n'}
-                    jdm = Person + Dativ{'\n'}
-                    s. = Reflexivpronomen + Dativ{'\n'}
-                </Text>
+
+            {(params.help) ? <Help help={params.help} /> : null}
+
+            <View style={[styles.searchContainer , {display: params.hideSearchBar ? 'none' : 'flex' }]} >
+                <TextInput
+                    style={styles.searchBox}
+                    value={searchVal}
+                    onChangeText={(text) => {
+                        setSearchVal(text);
+                        if (text == '') {
+                            setDataList(params.data);
+                        } else {
+                            search(searchVal);
+                        }
+                    }}
+                />
+                <Pressable
+                    style={styles.searchBtn}
+                    onPress={() => { search(searchVal.toUpperCase()) }}
+                >
+                    <Text>&#128269;</Text>
+                </Pressable>
             </View>
+
             <FlatList
                 showsVerticalScrollIndicator={false}
-                data={props.route.params.data}
+                data={dataList}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => {
                     return (
@@ -63,7 +82,7 @@ const List = (props) => {
                             }}
                         >
                             <View>
-                                {listSelect(props.route.params.flag, item)}
+                                {listSelect(params.flag, item)}
                             </View>
                         </Pressable>
                     );
@@ -104,39 +123,24 @@ const styles = StyleSheet.create({
         fontSize: 20,
         letterSpacing: 1
     },
-    helpContainer: {
-        marginVertical: 5,
-        width: 285,
-        alignItems: 'flex-end',
-    },
-    helpBtn: {
-        backgroundColor: '#aaa',
-        borderRadius: 5,
+    searchContainer: {
+        flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center',
-
+        paddingHorizontal: 20,
+        marginTop:10
     },
-    helpText: {
-        color: 'red',
-        fontSize: 25,
-        fontWeight: '900'
+    searchBox: {
+        backgroundColor: '#fff',
+        paddingHorizontal: 10,
+        flex: 10,
+        height: '100%'
     },
-    helpComponent: {
-        left: '10%',
-        position: 'absolute',
-        zIndex: 1,
-        backgroundColor: 'rgba(37, 37, 70, 0.808)',
-        padding: 5,
-        borderRadius: 5,
-        borderWidth: 2,
-        borderColor: '#fff',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 7,
-        },
-        shadowOpacity: 0.43,
-        shadowRadius: 9.51,
-        elevation: 50,
-    }
+    searchBtn: {
+        flex: 1,
+        backgroundColor: '#fff',
+        paddingHorizontal: 10,
+        height: '100%',
+        alignItems: 'center',
+        paddingTop: '5%',
+    },
 });
