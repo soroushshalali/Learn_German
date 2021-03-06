@@ -2,14 +2,13 @@ import React from 'react';
 import { Text, View, StyleSheet, Pressable, Button, BackHandler } from 'react-native';
 import data from './data.json';
 // import Icon from 'react-native-vector-icons/Ionicons';
+import { styles } from './styleCss';
 
 const Home = (props) => {
 
     return (
         <View style={styles.container} >
-            <Text>
-                {/* <Icon name="ios-person" size={30} color="#4F8EF7" /> */}
-            </Text>
+            {/* <Icon name="ios-person" size={30} color="#4F8EF7" /> */}
             <Pressable style={styles.btn}
                 onPress={() => props.navigation.navigate('List', {
                     data: data.briefe,
@@ -71,6 +70,13 @@ const Home = (props) => {
                 </View>
             </Pressable>
             <Pressable style={styles.btn}
+                onPress={() => props.navigation.navigate('LitnerBox')}
+            >
+                <View>
+                    <Text style={styles.btnText} >Litner Box</Text>
+                </View>
+            </Pressable>
+            <Pressable style={styles.btn}
                 onPress={() => { BackHandler.exitApp() }}
             >
                 <View>
@@ -82,36 +88,36 @@ const Home = (props) => {
 };
 export { Home };
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#eee',
-    },
-    btn: {
-        backgroundColor: "rgb(100, 100, 255)",
-        paddingHorizontal: 5,
-        borderRadius: 30,
-        marginVertical: 10,
-        width: 250,
-        height: 50,
-        alignItems: 'center',
-        justifyContent: 'center',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 7,
-        },
-        shadowOpacity: 0.43,
-        shadowRadius: 9.51,
-        elevation: 50,
-    },
-    btnText: {
-        color: '#fff',
-        fontSize: 20,
-        letterSpacing: 1,
-        textAlign: 'center',
-    },
-});
+// const styles = StyleSheet.create({
+//     container: {
+//         flex: 1,
+//         alignItems: 'center',
+//         justifyContent: 'center',
+//         backgroundColor: '#eee',
+//     },
+//     btn: {
+//         backgroundColor: "rgb(100, 100, 255)",
+//         paddingHorizontal: 5,
+//         borderRadius: 30,
+//         marginVertical: 10,
+//         width: 250,
+//         height: 50,
+//         alignItems: 'center',
+//         justifyContent: 'center',
+//         shadowColor: "#000",
+//         shadowOffset: {
+//             width: 0,
+//             height: 7,
+//         },
+//         shadowOpacity: 0.43,
+//         shadowRadius: 9.51,
+//         elevation: 50,
+//     },
+//     btnText: {
+//         color: '#fff',
+//         fontSize: 20,
+//         letterSpacing: 1,
+//         textAlign: 'center',
+//     },
+// });
 

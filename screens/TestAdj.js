@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Text, View, StyleSheet, Pressable } from 'react-native';
 import data from './data.json';
 import { ShowResult } from './ShowResult';
+import {styles} from './styleCss'
 
 const TestAdj = (props) => {
 
@@ -85,34 +86,34 @@ const TestAdj = (props) => {
 
     if (counter <= 10) {
         return (
-            <View style={styles.container} >
-                <View style={styles.question} >
-                    <Text style={styles.questionText}>{counter}-{dataTest[questionNumbers[counter - 1]].title}. . .</Text>
+            <View style={styles.Testcontainer} >
+                <View style={styles.Testquestion} >
+                    <Text style={styles.TestquestionText}>{counter}-{dataTest[questionNumbers[counter - 1]].title}. . .</Text>
                 </View>
                 <View>
-                    <Pressable style={[styles.btn, background[0]]}
+                    <Pressable style={[styles.Testbtn, background[0]]}
                         onPress={() => Check(0)}
                     >
                         <View>
-                            <Text style={styles.btnText} >{data.praepositionen[options[counter - 1][0]].title}</Text>
+                            <Text style={styles.TestbtnText} >{data.praepositionen[options[counter - 1][0]].title}</Text>
                         </View>
                     </Pressable>
-                    <Pressable style={[styles.btn, background[1]]}
+                    <Pressable style={[styles.Testbtn, background[1]]}
                         onPress={() => Check(1)}
                     >
                         <View>
-                            <Text style={styles.btnText} >{data.praepositionen[options[counter - 1][1]].title}</Text>
+                            <Text style={styles.TestbtnText} >{data.praepositionen[options[counter - 1][1]].title}</Text>
                         </View>
                     </Pressable>
-                    <Pressable style={[styles.btn, background[2]]}
+                    <Pressable style={[styles.Testbtn, background[2]]}
                         onPress={() => Check(2)}
                     >
                         <View>
-                            <Text style={styles.btnText} >{data.praepositionen[options[counter - 1][2]].title}</Text>
+                            <Text style={styles.TestbtnText} >{data.praepositionen[options[counter - 1][2]].title}</Text>
                         </View>
                     </Pressable>
                 </View>
-                <Pressable style={[styles.btn, {
+                <Pressable style={[styles.Testbtn, {
                     backgroundColor: 'rgba(55, 55, 65, 0.808)'
                 }]}
                     onPress={() => {
@@ -138,70 +139,3 @@ const TestAdj = (props) => {
 }
 
 export { TestAdj };
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#eee',
-        padding: 6,
-        alignItems: 'center'
-    },
-    btn: {
-        backgroundColor: "rgb(100, 100, 255)",
-        paddingHorizontal: 5,
-        borderRadius: 30,
-        marginVertical: 10,
-        width: 250,
-        height: 50,
-        alignItems: 'center',
-        justifyContent: 'center',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 7,
-        },
-        shadowOpacity: 0.43,
-        shadowRadius: 9.51,
-        elevation: 50,
-    },
-    btnText: {
-        color: '#fff',
-        fontSize: 17,
-        letterSpacing: 1,
-        textAlign: 'center',
-    },
-    question: {
-        backgroundColor: "rgb(255,255,255)",
-        paddingHorizontal: 5,
-        width: 285,
-        height: 70,
-        borderRadius: 5,
-        marginVertical: 10,
-        justifyContent: 'center',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 7,
-        },
-        shadowOpacity: 0.43,
-        shadowRadius: 9.51,
-        elevation: 2,
-    },
-    questionText: {
-        color: '#444',
-        fontSize: 20,
-        letterSpacing: 1,
-        textAlign: 'left'
-    },
-    einleitung: {
-        marginVertical: 10,
-        fontWeight: 'bold'
-    },
-    content: {
-        padding: 5,
-        backgroundColor: '#ddd',
-        borderRadius: 5
-    },
-    mainText: {
-        lineHeight: 25
-    }
-});

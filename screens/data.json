@@ -45,7 +45,6 @@
             "title": "Bitte Informationen über ein Festival",
             "content": "ich habe mit großem Interesse Ihren Anzeigen im Online Blog über Oktoberfest gelesen und das gefallt mir sehr gut, dass ich zusammen mit meiner Familie das Oktoberfest besuchen möchte, dass meiner Kindheit höre ich, dass Oktoberfest schönste und weltbekannt Veranstaltung ist. Deshalb möchte ich diese berühmt Veranstaltung erleben.Sehr gern würde ich nach meinem Aufenthalt fragen. Ich suche eine billig und sauber Hotel in der Nähe zu Oktoberfest zu buchen. Ich möchte auch mehr über die Stadtgeschichte weiß, deshalb bitte ich sie eine liste mit Museum und Wahrzeichen in der Stadt. Meine nächste Fragen wäre wie lange ist das Fest und darf man nicht ganze Tage blieben?Und als Letztes möchte ich noch fragen, ob er erlaubt es, Kindern auf das Fest mitbringen und wie können die Kinder Spaß haben?Ich danke Ihnen im Voraus für die Beantwortung meiner Fragen."
         }
-
     ],
     "NomVerbVerbin": [
         {
@@ -621,7 +620,7 @@
             "example": "Mit dem Ergebnis	können	wir alle sehr	zufrieden sein."
         }
     ],
-    "verbMitPro":[
+    "verbMitPro": [
         {
             "id": "0",
             "title": "abhängen",
@@ -1006,364 +1005,312 @@
             "answer": "26",
             "example": "Zuerst	solltet	ihr euch über euer Urlaubsland	informieren."
         },
-
         {
             "id": "64",
             "title": "s. interessieren",
             "answer": "0",
             "example": "Unsere Tochter	interessiert	sich neuerdings für Motorräder.	 "
         },
-
         {
             "id": "65",
             "title": "kämpfen",
             "answer": "0",
             "example": "Die Opposition	will	für mehr soziale Gerechtigkeit	kämpfen."
         },
-
         {
             "id": "66",
             "title": "kämpfen",
             "answer": "3",
             "example": "Greenpeace	kämpft	gegen die Umweltzerstörung.	 "
         },
-
         {
             "id": "67",
             "title": "kämpfen",
             "answer": "5",
             "example": "Ich liebe sie. Ich	werde	wie ein Löwe um sie	kämpfen."
         },
-
         {
             "id": "68",
             "title": "s. kümmern",
             "answer": "5",
             "example": "Die Kinder	müssen	sich um ihre kranke Mutter	kümmern."
         },
-
         {
             "id": "69",
             "title": "lachen",
             "answer": "26",
             "example": "Warum	lacht	ihr über den alten kranken Bettler?	 "
         },
-
         {
             "id": "70",
             "title": "leben",
             "answer": "12",
             "example": "Er arbeitet nie.	Lebt	er vom Geld seiner Frau?	 "
         },
-
         {
             "id": "71",
             "title": "leiden an + Dat",
             "answer": "23",
             "example": "Unsere Nachbarin	leidet	a einer schweren Krankheit.	 "
         },
-
         {
             "id": "72",
             "title": "nachdenken",
             "answer": "26",
             "example": "Ich	muss	über deinen Vorschlag zuerst einmal	nachdenken."
         },
-
         {
             "id": "73",
             "title": "passen",
             "answer": "14",
             "example": "Dein neues Kleid	pas	aber nicht zu deiner roten Frisur.	 "
         },
-
         {
             "id": "74",
             "title": "protestieren",
             "answer": "3",
             "example": "Die Arbeiter	protestieren	lautstark gegen die geplante Lohnkürzung.	 "
         },
-
         {
             "id": "75",
             "title": "rechnen",
             "answer": "13",
             "example": "Im Frühling	muss	man täglich mit Regengüssen	rechnen."
         },
-
         {
             "id": "76",
             "title": "riechen",
             "answer": "9",
             "example": "Wonach	riecht	es hier eigentlich? Etwa nach Gas?	 "
         },
-
         {
             "id": "77",
             "title": "schießen",
             "answer": "31",
             "example": "Die Soldaten	schießen	auf alles, was sich bewegt.	 "
         },
-
         {
             "id": "78",
             "title": "schimpfen",
             "answer": "13",
             "example": "Edmund,	schimpf	doch nicht immer mit deinem Sohn!	 "
         },
-
         {
             "id": "79",
             "title": "schmecken",
             "answer": "9",
             "example": "Warum	schmeckt	der Kuchen eigentlich nach Seife?	 "
         },
-
         {
             "id": "80",
             "title": "etw schreiben",
             "answer": "32",
             "example": "Tatjana	hat	an Thomas einen Liebesbrief	geschrieben."
         },
-
         {
             "id": "81",
             "title": "s. sehnen",
             "answer": "9",
             "example": "Wie	sehne	ich mich nach meiner Familie.	 "
         },
-
         {
             "id": "82",
             "title": "sorgen",
             "answer": "0",
             "example": "Niemand	sorgt	für die altersschwache Großmutter.	 "
         },
-
         {
             "id": "83",
             "title": "s. sorgen",
             "answer": "5",
             "example": "Die Eltern	sorgen	sich um ihre erst 14-jährige Tochter.	 "
         },
-
         {
             "id": "84",
             "title": "spielen",
             "answer": "13",
             "example": "Der große Bruder	will	nicht mit seiner kleineren Schwester	spielen."
         },
-
         {
             "id": "85",
             "title": "spielen",
             "answer": "5",
             "example": "Man	sollte	beim Pokern nicht um Haus und Hof	spielen."
         },
-
         {
             "id": "86",
             "title": "sprechen",
             "answer": "13",
             "example": "Hast	du endlich mit deinem Vorgesetzten	gesprochen?"
         },
-
         {
             "id": "87",
             "title": "sprechen",
             "answer": "26",
             "example": "Worüber	will	denn unser Klassenlehrer mit uns	sprechen?"
         },
-
         {
             "id": "88",
             "title": "sprechen",
             "answer": "12",
             "example": "Von wem	sprichst	du eigentlich?	 "
         },
-
         {
             "id": "89",
             "title": "sterben",
             "answer": "23",
             "example": "Unsere Nachbarin	ist	vor kurzem an Brustkrebs	gestorben."
         },
-
         {
             "id": "90",
             "title": "stimmen",
             "answer": "0",
             "example": "Für wen	wirst	du	stimmen?"
         },
-
         {
             "id": "91",
             "title": "stimmen",
             "answer": "3",
             "example": "Auf jeden Fall	stimme	ich gegen die jetzige Koalition.	 "
         },
-
         {
             "id": "92",
             "title": "s. streiten",
             "answer": "13",
             "example": "Warum	müsst	ihr euch immer mit den Nachbarskindern	streiten?"
         },
-
         {
             "id": "93",
             "title": "(s.) streiten",
             "answer": "5",
             "example": "Politiker	streiten	(sich) oft um die Haushaltsausgaben.	 "
         },
-
         {
             "id": "94",
             "title": "suchen",
             "answer": "9",
             "example": "Wonach	suchst	du in meinem Schreibtisch?	 "
         },
-
         {
             "id": "95",
             "title": "teilnehmen",
             "answer": "23",
             "example": "Der Schüler	möchte	nicht mehr am Religionsunterricht	teilnehmen."
         },
-
         {
             "id": "96",
             "title": "telefonieren",
             "answer": "13",
             "example": "Mit wem	hast	du die ganze Zeit	telefoniert?"
         },
-
         {
             "id": "97",
             "title": "träumen",
             "answer": "12",
             "example": "Die Familie	träumt	von einem eigenen Haus im Grünen.	 "
         },
-
         {
             "id": "98",
             "title": "jdn überreden",
             "answer": "14",
             "example": "Lass	dich doch zum Ausflug	überreden."
         },
-
         {
             "id": "99",
             "title": "jdn überzeugen",
             "answer": "12",
             "example": "Konntest	du deinen Mann von der Reise	überzeugen?"
         },
-
         {
             "id": "100",
             "title": "s. verabreden",
             "answer": "13",
             "example": "Mit ihr	möchte	ich mich gerne mal	verabreden."
         },
-
         {
             "id": "101",
             "title": "verfügen",
             "answer": "26",
             "example": "Der Multimillionär	verfügt	über ein geschätztes Vermögen von 500 Millionen Euro.	 "
         },
-
         {
             "id": "102",
             "title": "etw verlangen",
             "answer": "12",
             "example": "Deine Frau	verlangt	sehr viel von dir.	 "
         },
-
         {
             "id": "103",
             "title": "s. verlassen",
             "answer": "31",
             "example": "Auf dich	kann	man sich wenigstens	verlassen."
         },
-
         {
             "id": "104",
             "title": "sich verlieben",
             "answer": "24",
             "example": "Dein Sohn	hat	sich in meine Tochter	verliebt."
         },
-
         {
             "id": "105",
             "title": "verstoßen",
             "answer": "3",
             "example": "Der Autofahrer	hat	gegen die Verkehrsregeln	verstoßen."
         },
-
         {
             "id": "106",
             "title": "s. vertragen",
             "answer": "13",
             "example": "Unsere Kinder	vertragen	sich prima mit ihren Neffen.	 "
         },
-
         {
             "id": "107",
             "title": "s. vorbereiten",
             "answer": "31",
             "example": "Die Studenten	müssen	sich auf eine schwere Prüfung	vorbereiten."
         },
-
         {
             "id": "108",
             "title": "wählen",
             "answer": "14",
             "example": "Karl-Heinz	wurde	gestern zum Klassensprecher	gewählt."
         },
-
         {
             "id": "109",
             "title": "jdn warnen",
             "answer": "16",
             "example": "Niemand	hat	ihn vor den großen Gefahren	gewarnt."
         },
-
         {
             "id": "110",
             "title": "warten",
             "answer": "31",
             "example": "Immer	muss	man auf dich	warten."
         },
-
         {
             "id": "111",
             "title": "s. wehren",
             "answer": "3",
             "example": "Man	muss	sich gegen Missbrauch	wehren."
         },
-
         {
             "id": "112",
             "title": "wetten",
             "answer": "5",
             "example": "Warum	musst	du immer um so viel Geld	wetten?"
         },
-
         {
             "id": "113",
             "title": "s. wundern",
             "answer": "26",
             "example": "Darüber	kann	man sich nur	wundern."
         },
-
         {
             "id": "114",
             "title": "zugehen",
             "answer": "31",
             "example": "Der Junge	kann	schlecht auf fremde Kinder	zugehen."
         },
-
         {
             "id": "115",
             "title": "zweifeln",
@@ -1376,7 +1323,6 @@
             "answer": "21",
             "example": "Sabine	hat	sehr unter ihrem strengen Vater	gelitten."
         },
-
     ],
     "tests": [
         {
@@ -1390,151 +1336,219 @@
         {
             "id": "2",
             "title": "Verben mit Präpositionen"
+        },
+        {
+            "id": "3",
+            "title": "Ergänzungen"
         }
     ],
-    "praepositionen":[
+    "praepositionen": [
         {
-            "id":"0",
-            "title":" für + Akk"
+            "id": "0",
+            "title": " für + Akk"
         },
         {
-            "id":"1",
-            "title":" bis + Akk"
+            "id": "1",
+            "title": " bis + Akk"
         },
         {
-            "id":"2",
-            "title":" durch + Akk"
+            "id": "2",
+            "title": " durch + Akk"
         },
         {
-            "id":"3",
-            "title":" gegen + Akk"
+            "id": "3",
+            "title": " gegen + Akk"
         },
         {
-            "id":"4",
-            "title":" ohne + Akk"
+            "id": "4",
+            "title": " ohne + Akk"
         },
         {
-            "id":"5",
-            "title":" um + Akk"
+            "id": "5",
+            "title": " um + Akk"
         },
         {
-            "id":"6",
-            "title":" ab + Dat"
+            "id": "6",
+            "title": " ab + Dat"
         },
         {
-            "id":"7",
-            "title":" aus + Dat"
+            "id": "7",
+            "title": " aus + Dat"
         },
         {
-            "id":"8",
-            "title":" bei + Dat"
+            "id": "8",
+            "title": " bei + Dat"
         },
         {
-            "id":"9",
-            "title":" nach + Dat"
+            "id": "9",
+            "title": " nach + Dat"
         },
         {
-            "id":"10",
-            "title":" außer + Dat"
+            "id": "10",
+            "title": " außer + Dat"
         },
         {
-            "id":"11",
-            "title":" seit + Dat"
+            "id": "11",
+            "title": " seit + Dat"
         },
         {
-            "id":"12",
-            "title":" von + Dat"
+            "id": "12",
+            "title": " von + Dat"
         },
         {
-            "id":"13",
-            "title":" mit + Dat"
+            "id": "13",
+            "title": " mit + Dat"
         },
         {
-            "id":"14",
-            "title":" zu + Dat"
+            "id": "14",
+            "title": " zu + Dat"
         },
         {
-            "id":"15",
-            "title":" in + Dat"
+            "id": "15",
+            "title": " in + Dat"
         },
         {
-            "id":"16",
-            "title":" vor + Dat"
+            "id": "16",
+            "title": " vor + Dat"
         },
         {
-            "id":"17",
-            "title":" über + Dat"
+            "id": "17",
+            "title": " über + Dat"
         },
         {
-            "id":"18",
-            "title":" neben + Dat"
+            "id": "18",
+            "title": " neben + Dat"
         },
         {
-            "id":"19",
-            "title":" zwichen + Dat"
+            "id": "19",
+            "title": " zwichen + Dat"
         },
         {
-            "id":"20",
-            "title":" hinter + Dat"
+            "id": "20",
+            "title": " hinter + Dat"
         },
         {
-            "id":"21",
-            "title":" unter + Dat"
+            "id": "21",
+            "title": " unter + Dat"
         },
         {
-            "id":"22",
-            "title":" auf + Dat"
+            "id": "22",
+            "title": " auf + Dat"
         },
         {
-            "id":"23",
-            "title":" an + Dat"
+            "id": "23",
+            "title": " an + Dat"
         },
         {
-            "id":"24",
-            "title":" in + Akk"
+            "id": "24",
+            "title": " in + Akk"
         },
         {
-            "id":"25",
-            "title":" vor + Akk"
+            "id": "25",
+            "title": " vor + Akk"
         },
         {
-            "id":"26",
-            "title":" über + Akk"
+            "id": "26",
+            "title": " über + Akk"
         },
         {
-            "id":"27",
-            "title":" neben + Akk"
+            "id": "27",
+            "title": " neben + Akk"
         },
         {
-            "id":"28",
-            "title":" zwichen + Akk"
+            "id": "28",
+            "title": " zwichen + Akk"
         },
         {
-            "id":"29",
-            "title":" hinter + Akk"
+            "id": "29",
+            "title": " hinter + Akk"
         },
         {
-            "id":"30",
-            "title":" unter + Akk"
+            "id": "30",
+            "title": " unter + Akk"
         },
         {
-            "id":"31",
-            "title":" auf + Akk"
+            "id": "31",
+            "title": " auf + Akk"
         },
         {
-            "id":"32",
-            "title":" an + Akk"
+            "id": "32",
+            "title": " an + Akk"
         },
         {
-            "id":"33",
-            "title":" als + Akk"
+            "id": "33",
+            "title": " als + Akk"
         },
         {
-            "id":"34",
-            "title":" als + Nom"
+            "id": "34",
+            "title": " als + Nom"
         }
-
+    ],
+    "ergänzung": [
+        {
+            "id": "0",
+            "sentence": "Ich möchte morgen mit Jemandem zur Party gehen.",
+            "answer": "4"
+        },
+        {
+            "id": "1",
+            "sentence": "Ich kann mich auf dich nicht verlassen.",
+            "answer": "4"
+        },
+        {
+            "id": "2",
+            "sentence": "Wenn ich an deiner Stelle wäre, würde ich es anders machen.",
+            "answer": "6"
+        },
+        {
+            "id": "3",
+            "sentence": "Wenn ich an deiner Stellesafsa wäre, würde ich es anders machen.",
+            "answer": "0"
+        },
+        {
+            "id": "4",
+            "sentence": "Wenn ich an deiner Steasdlle wäre, würde ich es anders machen.",
+            "answer": "5"
+        },
+        {
+            "id": "5",
+            "sentence": "Wenn ich an deiner Steasdlle wäre, würde ich es anders machen.",
+            "answer": "2"
+        },
+        {
+            "id": "6",
+            "sentence": "Wenn ich an deiner Steasdlle wäre, würde ich es anders machen.",
+            "answer": "7"
+        },
+        {
+            "id": "7",
+            "sentence": "Wenn ich an deiner Stelle wäre, würde ich es anders machen.",
+            "answer": "4"
+        },
+        {
+            "id": "8",
+            "sentence": "Wenn ich an deiner Stelle wäre, würde ich es anders machen.",
+            "answer": "0"
+        },
+        {
+            "id": "9",
+            "sentence": "Wenn ich an deiner Stelle wäre, würde ich es anders machen.",
+            "answer": "10"
+        },
+        {
+            "id": "10",
+            "sentence": "Wenn ich an deiner Stelle wäre, würde ich es anders machen.",
+            "answer": "0"
+        },
+        {
+            "id": "11",
+            "sentence": "Wenn ich an deiner Stelle wäre, würde ich es anders machen.",
+            "answer": "0"
+        },
+        {
+            "id": "12",
+            "sentence": "Wenn ich an deiner Stelle wäre, würde ich es anders machen.",
+            "answer": "0"
+        },
     ]
 }
-
-

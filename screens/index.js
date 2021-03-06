@@ -3,3 +3,8 @@ export { Contact } from './Contact';
 export { List } from './List';
 export { Beispiel } from './Beispiel';
 export { Test } from './Test';
+export { LitnerBox } from './LitnerBox';
+export { Word } from './Word';
+export { Words } from './Words';
+export { AddWord } from './AddWord';
+export { LitnerTest } from './LitnerTest';
