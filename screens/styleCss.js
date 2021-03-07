@@ -325,8 +325,9 @@ const styles = StyleSheet.create({
         fontSize: 40,
     },
     list_text_container: {
-        justifyContent: 'space-between',
-        flexDirection: 'row'
+        flexDirection:'row',
+        justifyContent:'space-between',
+        width:'100%'
     },
 
     //ADD_Word///////////////////////////
@@ -347,6 +348,23 @@ const styles = StyleSheet.create({
         
         elevation: 5,
     },
+    //Litner_test
+    LitnerTest_btn:{
+        marginHorizontal:1,
+        width:'50%',
+        alignItems:'center',
+        height:40,
+        justifyContent:'center',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        
+        elevation: 5,
+    }
 });
 
 export { styles };

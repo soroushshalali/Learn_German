@@ -1,70 +1,46 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, TextInput, StyleSheet, Alert, Pressable, Button, FlatList } from 'react-native';
-import { ClassRealm } from './ClassRealm'
+import { LitnerController } from './LitnerController'
 import { styles } from './styleCss';
 
 const Word = (props) => {
 
 
     const del = () => {
-        let realm = new ClassRealm();
+        let realm = new LitnerController();
         realm.id = props.route.params.id;
         realm.del();
         props.navigation.navigate('Words');
     }
 
-    const findObj = (id) => {
-        let realm = new ClassRealm();
+    const get_word = (id) => {
+        let realm = new LitnerController();
         realm.id = id;
-        let obj = realm.find_obj();
+        let obj = realm.show_records();
         return obj;
     }
 
-    const update = () => {
-        let realm = new ClassRealm();
-        realm.update();
-        show();
-    }
-
-    const [word, setWord] = useState(findObj(props.route.params.id));
-    console.log(word);
-
+    const [word, setWord] = useState(get_word(props.route.params.id));
 
     return (
         <View>
-
-
-            <View
-                style={styles.addBtn_Container}
-            >
+            <View style={styles.addBtn_Container}>
                 <Pressable
-                    style={styles.addBtn}
+                    style={[styles.Listbtn, { width: 50, height: 20, backgroundColor: 'yellow' }]}
                     onPress={() => del()}
                 >
-                    <Text style={styles.addBtn_text} >-</Text>
+                    <Text style={[styles.ListBtnText, { color: 'black' }]} >-</Text>
                 </Pressable>
-                {/* <Pressable
-                    style={styles.addBtn}
-                    onPress={() => update()}
-                >
-                    <Text style={styles.addBtn_text} >UPDATE</Text>
-                </Pressable> */}
             </View>
-            <FlatList
-                data={word}
-                renderItem={({ item }) => {
-                    return (
-                        <View
-                            style={{ borderWidth: 2 }}
-                        >
-                            <Text>{item.word}</Text>
-                            <Text>{item.meaning}</Text>
-                        </View>
-                    );
-                }}
-                keyExtractor={item => item.id + ''}
-            />
-
+            <View style={styles.BeispielBtn} >
+                <Text style={styles.BeispielBtnText} >{word.word}</Text>
+            </View>
+            <View style={styles.content} >
+                <Text style={styles.BeispielMainText} >{word.meaning}</Text>
+            </View>
+            <View>
+                <Text style={styles.BeispielMainText} >Mehr:{"\n"}{word.more}</Text>
+            </View>
         </View>
     );
 }

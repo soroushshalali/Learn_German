@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Alert } from 'react-native'
-import { ClassRealm } from './ClassRealm'
+import { LitnerController } from './LitnerController'
 import { styles } from './styleCss'
 const AddWord = () => {
     const [word, setWord] = useState('');
@@ -9,16 +9,16 @@ const AddWord = () => {
     const [fokus, setFokus] = useState(true);
 
     const addWord = () => {
-        let realm = new ClassRealm();
-        realm.word = 'word';
-        realm.meaning = 'meaning';
-        realm.more = 'more';
+        let realm = new LitnerController();
+        realm.word = word;
+        realm.meaning = meaning;
+        realm.more = more;
         realm.status = 1;
         if (realm.add_word()) {
-            Alert.alert("Added Successfully.")
-            setWord(null);
-            setMeaning(null);
-            setMore(null);
+            // Alert.alert("Added Successfully.")
+            setWord('');
+            setMeaning('');
+            setMore('');
         } else {
             Alert.alert("Added not Successfully.")
         }

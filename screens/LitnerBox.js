@@ -1,29 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, ScrollView, TextInput, StyleSheet, Alert, Pressable, Button, FlatList, SafeAreaView } from 'react-native';
 // import AsyncStorage from '@react-native-async-storage/async-storage';
-import { ClassRealm } from './ClassRealm';
+import { LitnerController } from './LitnerController';
 import { styles } from './styleCss';
 
 const LitnerBox = (props) => {
 
     const [json, setjson] = useState('');
 
-    const show = () => {
-        let realm = new ClassRealm();
-        realm.status = 0;
-        let result = realm.show_records();
-        setjson(result);
-    }
+    // const show = () => {
+    //     let realm = new LitnerController();
+    //     realm.status = 0;
+    //     let result = realm.show_records();
+    //     setjson(result);
+    // }
 
     const delAll = () => {
-        let realm = new ClassRealm();
+        let realm = new LitnerController();
         realm.del_all();
         show();
     }
 
-    useEffect(() => {
-        show();
-    }, [])
+    // useEffect(() => {
+    //     show();
+    // }, [])
 
 
     return (

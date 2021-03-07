@@ -1,8 +1,8 @@
 import Realm from 'realm';
 
-class ClassRealm {
+class LitnerController {
 
-    constructor(id, word, meaning, more, status, timestamp) {
+    constructor(id, word, meaning, more, status, timestamp, userFlag) {
         this.id = id;
         this.word = word;
         this.meaning = meaning;
@@ -10,6 +10,7 @@ class ClassRealm {
         this.status = status;
         this.timestamp = timestamp;
         this.table_name = 'tableTest4';
+        this.userFlag = userFlag;
         let realm = new Realm({
             schema: [{
                 name: this.table_name,
@@ -37,7 +38,7 @@ class ClassRealm {
                     word: this.word,
                     meaning: this.meaning,
                     more: this.more,
-                    status: this.status,
+                    status: 0,
                     timestamp: Date.now(),
                 });
             });
@@ -50,12 +51,20 @@ class ClassRealm {
 
     show_records() {
         let realm = new Realm();
-        if (this.status == 0) {
+        if (this.id) {
+            let filteredObject = realm.objects(this.table_name).filtered("id =" + this.id);
+            return filteredObject[0];
+        }
+        if (this.status == -1) {
             let filteredObjects = realm.objects(this.table_name).filtered("timestamp < " + Date.now());
             return filteredObjects;
         }
         var A = realm.objects(this.table_name);
-        console.log(A);
+        for (const x of A) {
+            console.log('TimeStamp: ' + Date.now())
+            console.log(x.word + '---' + x.timestamp);
+
+        }
         return A;
     }
 
@@ -88,13 +97,53 @@ class ClassRealm {
         }
     }
 
+    change_status() {
+        let realm = new Realm();
+        let st = 0;
+        let nextTime = 0;
+        // let oneDay = 86400000;
+        let oneDay = 60000;
+        let now = Date.now();
+        let filteredObject = realm.objects(this.table_name).filtered("id =" + this.id);
+        if (this.userFlag) {
+
+            st = filteredObject[0].status + 1;
+            switch (filteredObject[0].status) {
+                case 0:
+                    nextTime = now + oneDay;
+                    break;
+                case 1:
+                    nextTime = now + oneDay;
+                    break;
+                case 2:
+                    nextTime = now + (oneDay * 2);
+                    break;
+                case 3:
+                    nextTime = now + (oneDay * 4);
+                    break;
+                case 4:
+                    nextTime = now + (oneDay * 8);
+                    break;
+                case 5:
+                    nextTime = now + (oneDay * 16);
+                    break;
+            }
+        } else {
+            st = 1;
+            nextTime = now;
+        }
+        realm.write(() => {
+            filteredObject[0].status = st;
+            filteredObject[0].timestamp = nextTime;
+        });
+    }
+
     update() {
         try {
             let realm = new Realm();
             let filteredObject = realm.objects(this.table_name).filtered("id =" + this.id);
             realm.write(() => {
                 filteredObject[0].status = filteredObject[0].status + 1;
-                filteredObject[0].timestamp = 200 + Date.now();
             });
 
         } catch (error) {
@@ -104,4 +153,4 @@ class ClassRealm {
 
 }
 
-export { ClassRealm };
+export { LitnerController };

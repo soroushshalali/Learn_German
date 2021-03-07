@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, Pressable, FlatList, SafeAreaView } from 'react-native';
-import { ClassRealm } from './ClassRealm';
+import { LitnerController } from './LitnerController';
 import { styles } from './styleCss';
 
 const Words = (props) => {
@@ -8,13 +8,13 @@ const Words = (props) => {
     const [json, setjson] = useState('');
 
     const show = () => {
-        let realm = new ClassRealm();
+        let realm = new LitnerController();
         let result = realm.show_records();
         setjson(result);
     }
 
     const delAll = () => {
-        let realm = new ClassRealm();
+        let realm = new LitnerController();
         realm.del_all();
         show();
     }
@@ -25,21 +25,14 @@ const Words = (props) => {
 
 
     return (
-        <SafeAreaView style={styles.Litner_Container} >
+        <SafeAreaView>
             <View
-                style={styles.addBtn_Container}
-            >
+                style={styles.addBtn_Container}>
                 <Pressable
-                    style={styles.addBtn}
+                    style={[styles.Listbtn,{width:50 , height:20 , backgroundColor:'yellow'}]}
                     onPress={() => props.navigation.navigate('AddWord')}
                 >
-                    <Text style={styles.addBtn_text} >+</Text>
-                </Pressable>
-                <Pressable
-                    style={styles.addBtn}
-                    onPress={() => delAll()}
-                >
-                    <Text style={styles.addBtn_text} >--</Text>
+                    <Text style={[styles.ListBtnText,{color:'black'}]} >+</Text>
                 </Pressable>
             </View>
             <View style={{ alignItems: 'center' }} >
@@ -56,8 +49,6 @@ const Words = (props) => {
                                 <View style={styles.list_text_container} >
                                     <Text style={styles.ListBtnText} >{item.word}</Text>
                                     <Text style={styles.ListBtnText} >{item.meaning}</Text>
-                                    <Text style={styles.ListBtnText} >{item.status}</Text>
-                                    <Text style={styles.ListBtnText} >{item.timestamp}</Text>
                                 </View>
                             </Pressable>
                         );

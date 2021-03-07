@@ -1,41 +1,46 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, Pressable } from 'react-native';
 import { styles } from './styleCss'
-import { ClassRealm } from './ClassRealm'
-
+import { LitnerController } from './LitnerController'
 
 const LitnerTest = (props) => {
 
-    const getData = () => {
-        let realm = new ClassRealm()
-        realm.status = 0;
-        let result = realm.show_records();
-        console.log(Date.now());
-        console.log(result);
-        return result;
+    const get_words = () => {
+        let controller = new LitnerController();
+        controller.status = -1;
+        return controller.show_records();
     }
-    const [words, setWords] = useState(getData());
     const [counter, setCounter] = useState(0);
+    const [words, setWords] = useState(get_words());
+    // for (const x of words) {
+    //     console.log(x.word)
+    // }
 
-    function check(ans) {
-        let realm = new ClassRealm()
+    console.log(words);
 
+    const check = (ans) => {
+        let controller = new LitnerController();
         if (ans) {
-            realm.id = words[counter].id;
-            realm.update();
+            controller.userFlag = true;
+        } else {
+            controller.userFlag = false;
         }
 
-        if (counter <= words.length - 2) {
+        controller.id = words[counter].id;
+        // controller.change_status();
+
+        if (counter < words.length - 1) {
             setCounter(counter + 1);
         } else {
-            props.navigation.navigate('LitnerBox');
+            props.navigation.navigate('LitnerBox')
         }
     }
+
 
     if (words.length > 0) {
         return (
-            <View style={styles.container} >
-                <View style={styles.Testquestion} >
+            <View style={{ alignItems: 'center' }} >
+                <View style={[styles.Testquestion, { alignItems: 'center' }]} >
                     <Text style={styles.TestquestionText}>{words[counter].word}</Text>
                 </View>
                 <View
@@ -43,16 +48,16 @@ const LitnerTest = (props) => {
                 >
                     <Pressable
                         onPress={() => check(1)}
-                        style={{ backgroundColor: 'blue', paddingHorizontal: 10, width: 150 }}
+                        style={[styles.LitnerTest_btn, { backgroundColor: 'blue', }]}
                     >
-                        <Text>Ich weiß es</Text>
+                        <Text style={{ color: '#fff' }} >Ich weiß es</Text>
                     </Pressable>
                     <Pressable
                         onPress={() => check(0)}
-                        style={{ backgroundColor: 'red', paddingHorizontal: 10, width: 150 }}
+                        style={[styles.LitnerTest_btn, { backgroundColor: 'red', }]}
 
                     >
-                        <Text>Ich weiß es NICHT</Text>
+                        <Text style={{ color: '#fff' }} >Ich weiß es NICHT</Text>
                     </Pressable>
                 </View>
             </View>
@@ -60,7 +65,7 @@ const LitnerTest = (props) => {
     } else {
         return (
             <View>
-                <Text>test</Text>
+                <Text>ES gibt keines Wort</Text>
             </View>
         );
 
