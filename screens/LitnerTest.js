@@ -12,11 +12,9 @@ const LitnerTest = (props) => {
     }
     const [counter, setCounter] = useState(0);
     const [words, setWords] = useState(get_words());
-    // for (const x of words) {
-    //     console.log(x.word)
-    // }
-
-    console.log(words);
+    for (const x of words) {
+        console.log(x.word);
+    }
 
     const check = (ans) => {
         let controller = new LitnerController();
@@ -27,7 +25,7 @@ const LitnerTest = (props) => {
         }
 
         controller.id = words[counter].id;
-        // controller.change_status();
+        controller.change_status();
 
         if (counter < words.length - 1) {
             setCounter(counter + 1);

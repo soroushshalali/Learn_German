@@ -62,7 +62,7 @@ class LitnerController {
         var A = realm.objects(this.table_name);
         for (const x of A) {
             console.log('TimeStamp: ' + Date.now())
-            console.log(x.word + '---' + x.timestamp);
+            console.log(x.word + '---' + x.status);
 
         }
         return A;
@@ -102,7 +102,7 @@ class LitnerController {
         let st = 0;
         let nextTime = 0;
         // let oneDay = 86400000;
-        let oneDay = 60000;
+        let oneDay = 30000;
         let now = Date.now();
         let filteredObject = realm.objects(this.table_name).filtered("id =" + this.id);
         if (this.userFlag) {
@@ -110,6 +110,7 @@ class LitnerController {
             st = filteredObject[0].status + 1;
             switch (filteredObject[0].status) {
                 case 0:
+                    console.log('XXXXXXxxxxxxxxxxxxXXXXXXXXXX');
                     nextTime = now + oneDay;
                     break;
                 case 1:
@@ -143,8 +144,11 @@ class LitnerController {
             let realm = new Realm();
             let filteredObject = realm.objects(this.table_name).filtered("id =" + this.id);
             realm.write(() => {
-                filteredObject[0].status = filteredObject[0].status + 1;
+                filteredObject[0].word = this.word;
+                filteredObject[0].meaning = this.meaning;
+                filteredObject[0].more = this.more;
             });
+            return true;
 
         } catch (error) {
             console.log(error)

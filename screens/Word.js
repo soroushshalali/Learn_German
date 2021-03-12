@@ -29,7 +29,16 @@ const Word = (props) => {
                     style={[styles.Listbtn, { width: 50, height: 20, backgroundColor: 'yellow' }]}
                     onPress={() => del()}
                 >
-                    <Text style={[styles.ListBtnText, { color: 'black' }]} >-</Text>
+                    <Text style={[styles.ListBtnText, { color: 'black' }]} >Del</Text>
+                </Pressable>
+                <Pressable
+                    style={[styles.Listbtn, { width: 50, height: 20, backgroundColor: 'yellow' }]}
+                    onPress={() => props.navigation.navigate('AddWord', {
+                        edit: true,
+                        id: word.id
+                    })}
+                >
+                    <Text style={[styles.ListBtnText, { color: 'black' }]} >Edit</Text>
                 </Pressable>
             </View>
             <View style={styles.BeispielBtn} >
