@@ -27,12 +27,18 @@ class LitnerController {
             }]
         });
     }
+    // let ID = realm.objects(this.table_name).length + 1;
 
     add_word() {
         try {
             let realm = new Realm();
             realm.write(() => {
-                var ID = realm.objects(this.table_name).length + 1;
+                var All_Words = realm.objects(this.table_name);
+                let ID = 1;
+                if (All_Words.length > 0) {
+                    ID = All_Words[All_Words.length - 1].id + 1;
+                }
+
                 realm.create(this.table_name, {
                     id: ID,
                     word: this.word,
@@ -59,13 +65,13 @@ class LitnerController {
             let filteredObjects = realm.objects(this.table_name).filtered("timestamp < " + Date.now());
             return filteredObjects;
         }
-        var A = realm.objects(this.table_name);
-        for (const x of A) {
+        var All_Words = realm.objects(this.table_name);
+        for (const x of All_Words) {
             console.log('TimeStamp: ' + Date.now())
-            console.log(x.word + '---' + x.status);
+            console.log(x.word + '---' + x.id);
 
         }
-        return A;
+        return All_Words;
     }
 
     find_obj() {
@@ -101,8 +107,8 @@ class LitnerController {
         let realm = new Realm();
         let st = 0;
         let nextTime = 0;
-        // let oneDay = 86400000;
-        let oneDay = 30000;
+        let oneDay = 86400000;
+        // let oneDay = 30000;
         let now = Date.now();
         let filteredObject = realm.objects(this.table_name).filtered("id =" + this.id);
         if (this.userFlag) {
@@ -110,7 +116,6 @@ class LitnerController {
             st = filteredObject[0].status + 1;
             switch (filteredObject[0].status) {
                 case 0:
-                    console.log('XXXXXXxxxxxxxxxxxxXXXXXXXXXX');
                     nextTime = now + oneDay;
                     break;
                 case 1:

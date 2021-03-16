@@ -30,7 +30,7 @@ const Words = (props) => {
                 style={styles.addBtn_Container}>
                 <Pressable
                     style={[styles.Listbtn,{width:50 , height:20 , backgroundColor:'yellow'}]}
-                    onPress={() => props.navigation.navigate('AddWord')}
+                    onPress={() => props.navigation.navigate('AddWord',{edit:false})}
                 >
                     <Text style={[styles.ListBtnText,{color:'black'}]} >+</Text>
                 </Pressable>
@@ -59,6 +59,5 @@ const Words = (props) => {
         </SafeAreaView>
     );
 }
-
 
 export { Words };

@@ -8,14 +8,14 @@ const Stack = createStackNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator screenOptions={{headerShown: false}} >
         <Stack.Screen name='Home' component={Home} />
         <Stack.Screen name='LitnerBox' component={LitnerBox} />
         <Stack.Screen name='Kontakt' component={Contact} />
         <Stack.Screen name='List' component={List} />
         <Stack.Screen name='Beispiel' component={Beispiel} />
         <Stack.Screen name='Test' component={Test} />
-        <Stack.Screen name='Word' component={Word} />
+        <Stack.Screen name='Word' component={Word}  />
         <Stack.Screen name='Words' component={Words} />
         <Stack.Screen name='AddWord' component={AddWord} />
         <Stack.Screen name='Litner Test' component={LitnerTest} />

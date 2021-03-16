@@ -17,7 +17,7 @@ const LitnerBox = (props) => {
                 style={styles.addBtn_Container}>
                 <Pressable
                     style={[styles.Listbtn, { width: 50, height: 20, backgroundColor: 'yellow' }]}
-                    onPress={() => props.navigation.navigate('AddWord')}
+                    onPress={() => props.navigation.navigate('AddWord',{edit:false})}
                 >
                     <Text style={[styles.ListBtnText, { color: 'black' }]} >+</Text>
                 </Pressable>
@@ -28,13 +28,13 @@ const LitnerBox = (props) => {
                     style={styles.btn}
                     onPress={() => props.navigation.navigate('Words')}
                 >
-                    <Text style={styles.btnText} >Words</Text>
+                    <Text style={styles.btnText} >Alle Wörter</Text>
                 </Pressable>
                 <Pressable
                     style={styles.btn}
                     onPress={() => props.navigation.navigate('Litner Test')}
                 >
-                    <Text style={styles.btnText} >Heutihe Wörter</Text>
+                    <Text style={styles.btnText} >Die heutigen Wörter</Text>
                 </Pressable>
                 <Pressable
                     style={styles.btn}

@@ -37,7 +37,7 @@ const LitnerTest = (props) => {
 
     if (words.length > 0) {
         return (
-            <View style={{ alignItems: 'center' }} >
+            <View style={{ alignItems: 'center',paddingTop:'30%', }} >
                 <View style={[styles.Testquestion, { alignItems: 'center' }]} >
                     <Text style={styles.TestquestionText}>{words[counter].word}</Text>
                 </View>
@@ -63,7 +63,7 @@ const LitnerTest = (props) => {
     } else {
         return (
             <View>
-                <Text>ES gibt keines Wort</Text>
+                <Text style={{ textAlign: 'center' }} >Bisher gibt es keines Wort</Text>
             </View>
         );
 

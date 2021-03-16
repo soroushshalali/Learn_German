@@ -63,17 +63,17 @@ const Home = (props) => {
                 </View>
             </Pressable>
             <Pressable style={styles.btn}
-                onPress={() => props.navigation.navigate('Kontakt')}
-            >
-                <View>
-                    <Text style={styles.btnText} >Kontakt</Text>
-                </View>
-            </Pressable>
-            <Pressable style={styles.btn}
                 onPress={() => props.navigation.navigate('LitnerBox')}
             >
                 <View>
                     <Text style={styles.btnText} >Litner Box</Text>
+                </View>
+            </Pressable>
+            <Pressable style={styles.btn}
+                onPress={() => props.navigation.navigate('Kontakt')}
+            >
+                <View>
+                    <Text style={styles.btnText} >Kontakt</Text>
                 </View>
             </Pressable>
             <Pressable style={styles.btn}
@@ -87,37 +87,3 @@ const Home = (props) => {
     );
 };
 export { Home };
-
-// const styles = StyleSheet.create({
-//     container: {
-//         flex: 1,
-//         alignItems: 'center',
-//         justifyContent: 'center',
-//         backgroundColor: '#eee',
-//     },
-//     btn: {
-//         backgroundColor: "rgb(100, 100, 255)",
-//         paddingHorizontal: 5,
-//         borderRadius: 30,
-//         marginVertical: 10,
-//         width: 250,
-//         height: 50,
-//         alignItems: 'center',
-//         justifyContent: 'center',
-//         shadowColor: "#000",
-//         shadowOffset: {
-//             width: 0,
-//             height: 7,
-//         },
-//         shadowOpacity: 0.43,
-//         shadowRadius: 9.51,
-//         elevation: 50,
-//     },
-//     btnText: {
-//         color: '#fff',
-//         fontSize: 20,
-//         letterSpacing: 1,
-//         textAlign: 'center',
-//     },
-// });
-
