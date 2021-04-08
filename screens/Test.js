@@ -14,11 +14,12 @@ const Test = (props) => {
         return (
             <TestNomVerv {...props} />
         );
-    } else if (props.route.params.testId == 3) {
-        return (
-            <ErgänzungTest {...props} />
-        );
-    }
+    } 
+    // else if (props.route.params.testId == 3) {
+    //     return (
+    //         <ErgänzungTest {...props} />
+    //     );
+    // }
 }
 
 export { Test };

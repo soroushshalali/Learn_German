@@ -22,10 +22,10 @@ const Word = (props) => {
     const [word, setWord] = useState(get_word(props.route.params.id));
 
     return (
-        <View>
-            <View style={styles.addBtn_Container}>
+        <View style={styles.litnerBoxContainer} >
+            <View style={styles.crudBtn_Container}>
                 <Pressable
-                    style={[styles.Listbtn, { width: 60, height: 20, backgroundColor: 'yellow' }]}
+                    style={[styles.crudBtn, { width: 60, height: 20, backgroundColor: 'yellow' }]}
                     onPress={() => props.navigation.navigate('AddWord', {
                         edit: true,
                         id: word.id
@@ -34,7 +34,7 @@ const Word = (props) => {
                     <Text style={[styles.ListBtnText, { color: 'black' }]} >Edit</Text>
                 </Pressable>
                 <Pressable
-                    style={[styles.Listbtn, { width: 60, height: 20, backgroundColor: 'red',marginLeft:10 }]}
+                    style={[styles.crudBtn, { width: 60, height: 20, backgroundColor: 'red',marginLeft:10 }]}
                     onPress={() => del()}
                 >
                     <Text style={[styles.ListBtnText, { color: 'black' }]} >Del</Text>

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Text, View, StyleSheet, Pressable, TextInput } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { Text, View, StyleSheet, Pressable, TextInput, Dimensions } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import data from './data.json';
 import { Help } from './Help';
@@ -9,8 +9,20 @@ const List = (props) => {
     const [params, setParams] = useState(props.route.params);
     const [dataList, setDataList] = useState(params.data);
     const [praepositionen, setPraepositionen] = useState(data.praepositionen);
-
     const [searchVal, setSearchVal] = useState('');
+
+
+    const [widthNewSize, setWidthNewSize] = useState(Dimensions.get('window').width)
+    const dimensionsBtnList = {
+        width: widthNewSize / 1.1
+    }
+    useEffect(() => {
+        const onDimensionChange = () => {
+            setWidthNewSize(Dimensions.get('window').width);
+        }
+        Dimensions.addEventListener('change', onDimensionChange);
+        return Dimensions.removeEventListener('change');
+    })
 
     const search = (text) => {
         let str, n;
@@ -28,9 +40,7 @@ const List = (props) => {
             setDataList(params.data);
         }
     }
-
-
-    function listSelect(list, item) {
+    const listSelect = (list, item) => {
         if (list == 'AdjMitPro' || list == 'verbMitPro') {
             return (
                 <Text style={styles.ListBtnText} >{item.title}{praepositionen[Number(item.answer)].title}</Text>
@@ -42,11 +52,9 @@ const List = (props) => {
         }
     }
     return (
-        <View style={styles.ListContainer} >
-
+        <View style={styles.container} >
             {(params.help) ? <Help help={params.help} /> : null}
-
-            <View style={[styles.searchContainer, { display: params.hideSearchBar ? 'none' : 'flex' }]} >
+            <View style={[styles.searchContainer, { display: params.hideSearchBar ? 'none' : 'flex' }, dimensionsBtnList]} >
                 <TextInput
                     style={styles.searchBox}
                     value={searchVal}
@@ -66,14 +74,13 @@ const List = (props) => {
                     <Text>&#128269;</Text>
                 </Pressable>
             </View>
-
             <FlatList
                 showsVerticalScrollIndicator={false}
                 data={dataList}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => {
                     return (
-                        <Pressable style={styles.Listbtn}
+                        <Pressable style={[styles.Listbtn, dimensionsBtnList]}
                             onPress={() => {
                                 if (params.flag == 'Test') {
                                     props.navigation.navigate('Test', { testId: item.id })
@@ -94,3 +101,9 @@ const List = (props) => {
 }
 
 export { List };
+
+// const StyleSheet_Style = StyleSheet.create({
+//     list_btn: {
+//         width: Dimensions.get('window').width / 1.1
+//     }
+// });

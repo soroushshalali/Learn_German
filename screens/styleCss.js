@@ -1,9 +1,10 @@
 import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
+        paddingVertical: 10,
+        paddingHorizontal: 15,
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'center',
         backgroundColor: '#eee',
     },
     btn: {
@@ -11,7 +12,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 5,
         borderRadius: 30,
         marginVertical: 10,
-        width: 250,
+        width: '100%',
         height: 50,
         alignItems: 'center',
         justifyContent: 'center',
@@ -30,20 +31,14 @@ const styles = StyleSheet.create({
         letterSpacing: 1,
         textAlign: 'center',
     },
-    //List///////////////////////////////////////////////////////////////
-    ListContainer: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#eee',
-        position: 'relative'
-    },
+    //LIST//////////////////////////
     Listbtn: {
         backgroundColor: "rgb(100, 100, 255)",
         paddingHorizontal: 5,
         borderRadius: 5,
         marginVertical: 10,
-        width: 285,
+        marginLeft: 'auto',
+        marginRight: 'auto',
         height: 70,
         justifyContent: 'center',
         alignItems: 'center',
@@ -61,11 +56,11 @@ const styles = StyleSheet.create({
         fontSize: 20,
         letterSpacing: 1
     },
+    //SEARCH//////////////////////////
     searchContainer: {
+        width: 280,
         flexDirection: 'row',
         alignItems: 'center',
-        paddingHorizontal: 20,
-        marginTop: 10
     },
     searchBox: {
         backgroundColor: '#fff',
@@ -80,143 +75,6 @@ const styles = StyleSheet.create({
         height: '100%',
         alignItems: 'center',
         paddingTop: '5%',
-    },
-    //Beispiel///////////////
-    BeispielContainer: {
-        flex: 1,
-        backgroundColor: '#eee',
-        padding: 6
-    },
-    BeispielBtn: {
-        backgroundColor: "rgb(100, 100, 255)",
-        paddingHorizontal: 5,
-        borderRadius: 5,
-        marginVertical: 10,
-        alignItems: 'center',
-        justifyContent: 'center',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 7,
-        },
-        shadowOpacity: 0.43,
-        shadowRadius: 9.51,
-
-        elevation: 2,
-    },
-    BeispielBtnText: {
-        color: '#fff',
-        fontSize: 15,
-        letterSpacing: 1
-    },
-    einleitung: {
-        marginVertical: 10,
-        fontWeight: 'bold'
-    },
-    BeispielContent: {
-        padding: 5,
-        backgroundColor: '#ddd',
-        borderRadius: 5
-    },
-    BeispielMainText: {
-        lineHeight: 25
-    },
-    //TEST//////////////////////////////////////
-    Testcontainer: {
-        flex: 1,
-        backgroundColor: '#eee',
-        padding: 6,
-        alignItems: 'center'
-    },
-    Testbtn: {
-        backgroundColor: "rgb(100, 100, 255)",
-        paddingHorizontal: 5,
-        borderRadius: 30,
-        marginVertical: 10,
-        width: 250,
-        height: 50,
-        alignItems: 'center',
-        justifyContent: 'center',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 7,
-        },
-        shadowOpacity: 0.43,
-        shadowRadius: 9.51,
-
-        elevation: 50,
-    },
-    TestbtnText: {
-        color: '#fff',
-        fontSize: 17,
-        letterSpacing: 1,
-        textAlign: 'center',
-    },
-    Testquestion: {
-        backgroundColor: "rgb(255,255,255)",
-        paddingHorizontal: 5,
-        width: 285,
-        height: 70,
-        borderRadius: 5,
-        marginVertical: 10,
-        justifyContent: 'center',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 7,
-        },
-        shadowOpacity: 0.43,
-        shadowRadius: 9.51,
-        elevation: 2,
-    },
-    TestquestionText: {
-        color: '#444',
-        fontSize: 20,
-        letterSpacing: 1,
-        textAlign: 'left'
-    },
-    einleitung: {
-        marginVertical: 10,
-        fontWeight: 'bold'
-    },
-    content: {
-        padding: 5,
-        backgroundColor: '#ddd',
-        borderRadius: 5
-    },
-    mainText: {
-        lineHeight: 25
-    },
-    //COntact////////////////////////7
-    ContactContainer: {
-        flex: 1,
-        alignItems: 'center',
-        backgroundColor: '#eee',
-    },
-    ContactBtn: {
-        backgroundColor: "rgb(100, 100, 100)",
-        paddingHorizontal: 5,
-        borderRadius: 30,
-        marginVertical: 10,
-        width: 250,
-        height: 50,
-        alignItems: 'center',
-        justifyContent: 'center',
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 7,
-        },
-        shadowOpacity: 0.43,
-        shadowRadius: 9.51,
-
-        elevation: 50,
-    },
-    ContactBtnText: {
-        color: '#fff',
-        fontSize: 20,
-        letterSpacing: 1
     },
     //HELP//////////////////////////
     helpContainer: {
@@ -254,18 +112,43 @@ const styles = StyleSheet.create({
         shadowRadius: 9.51,
         elevation: 50,
     },
-    //SHOW_RESULT////////////////////////
-    ShowResultcontainer: {
+    //Beispiel///////////////
+    BeispielContainer: {
         flex: 1,
         backgroundColor: '#eee',
-        padding: 6,
-        alignItems: 'center',
+        padding: 6
     },
-    ShowResult: {
+    BeispielBtn: {
+        backgroundColor: "rgb(100, 100, 100)",
+        paddingHorizontal: 5,
+        paddingVertical: 10,
+        borderRadius: 5,
+        marginVertical: 10,
+    },
+    BeispielBtnText: {
+        color: '#fff',
+        fontSize: 20,
+        letterSpacing: 1,
+        textAlign: 'center'
+    },
+    einleitung: {
+        marginVertical: 10,
+        fontWeight: 'bold'
+    },
+    BeispielContent: {
+        padding: 5,
+        backgroundColor: '#ddd',
+        borderRadius: 5
+    },
+    BeispielMainText: {
+        lineHeight: 25,
+        paddingVertical: 10
+    },
+    //TEST//////////////////////////////////////
+    Testquestion: {
         backgroundColor: "rgb(255,255,255)",
         paddingHorizontal: 5,
         width: 285,
-        alignItems: 'center',
         height: 70,
         borderRadius: 5,
         marginVertical: 10,
@@ -279,11 +162,47 @@ const styles = StyleSheet.create({
         shadowRadius: 9.51,
         elevation: 2,
     },
-    ShowResultText: {
+    TestquestionText: {
         color: '#444',
-        fontSize: 30,
+        fontSize: 20,
         letterSpacing: 1,
+        textAlign: 'left'
     },
+    content: {
+        padding: 5,
+        backgroundColor: '#ddd',
+        borderRadius: 5
+    },
+    mainText: {
+        lineHeight: 25
+    },
+    //COntact////////////////////////7
+    ContactBtn: {
+        backgroundColor: "rgb(100, 100, 100)",
+        paddingHorizontal: 5,
+        borderRadius: 30,
+        marginVertical: 10,
+        width: 250,
+        height: 50,
+        alignItems: 'center',
+        justifyContent: 'center',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 7,
+        },
+        shadowOpacity: 0.43,
+        shadowRadius: 9.51,
+
+        elevation: 50,
+    },
+    ContactBtnText: {
+        color: '#fff',
+        fontSize: 20,
+        letterSpacing: 1
+    },
+
+    //SHOW_RESULT////////////////////////
     ShowResultbtn: {
         backgroundColor: "green",
         paddingHorizontal: 5,
@@ -309,25 +228,38 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     //LITNER BOX/////////////////////////////////////
-    LitnerContainer: {
-
+    litnerBoxContainer: {
+        paddingVertical: 10,
+        paddingHorizontal: 15,
     },
-    addBtn_Container: {
-        paddingHorizontal: 20,
+    crudBtn_Container: {
+        flexDirection:'row',
         alignItems: 'flex-end',
-        flexDirection: 'row',
         justifyContent: 'flex-end',
     },
-    addBtn: {
-        marginTop: -10
+    crudBtn: {
+        backgroundColor: "rgb(100, 100, 255)",
+        paddingHorizontal: 5,
+        borderRadius: 5,
+        marginVertical: 10,
+        justifyContent: 'center',
+        alignItems: 'center',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 7,
+        },
+        shadowOpacity: 0.43,
+        shadowRadius: 9.51,
+        elevation: 2,
     },
     addBtn_text: {
         fontSize: 40,
     },
     list_text_container: {
-        flexDirection:'row',
-        justifyContent:'space-between',
-        width:'100%'
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        width: '100%'
     },
 
     //ADD_Word///////////////////////////
@@ -345,16 +277,16 @@ const styles = StyleSheet.create({
         },
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
-        
+
         elevation: 5,
     },
     //Litner_test
-    LitnerTest_btn:{
-        marginHorizontal:1,
-        width:'50%',
-        alignItems:'center',
-        height:40,
-        justifyContent:'center',
+    LitnerTest_btn: {
+        marginHorizontal: 1,
+        width: '50%',
+        alignItems: 'center',
+        height: 40,
+        justifyContent: 'center',
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -362,9 +294,10 @@ const styles = StyleSheet.create({
         },
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
-        
+
         elevation: 5,
-    }
+    },
+    
 });
 
 export { styles };

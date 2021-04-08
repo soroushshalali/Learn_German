@@ -10,13 +10,8 @@ const Words = (props) => {
     const show = () => {
         let realm = new LitnerController();
         let result = realm.show_records();
+        console.log(result);
         setjson(result);
-    }
-
-    const delAll = () => {
-        let realm = new LitnerController();
-        realm.del_all();
-        show();
     }
 
     useEffect(() => {
@@ -26,7 +21,7 @@ const Words = (props) => {
 
     return (
         <SafeAreaView>
-            <View
+            {/* <View
                 style={styles.addBtn_Container}>
                 <Pressable
                     style={[styles.Listbtn,{width:50 , height:20 , backgroundColor:'yellow'}]}
@@ -34,7 +29,7 @@ const Words = (props) => {
                 >
                     <Text style={[styles.ListBtnText,{color:'black'}]} >+</Text>
                 </Pressable>
-            </View>
+            </View> */}
             <View style={{ alignItems: 'center' }} >
                 <FlatList
                     data={json}

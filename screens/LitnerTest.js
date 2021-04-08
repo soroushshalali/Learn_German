@@ -4,70 +4,59 @@ import { styles } from './styleCss'
 import { LitnerController } from './LitnerController'
 
 const LitnerTest = (props) => {
-
-    const get_words = () => {
-        let controller = new LitnerController();
-        controller.status = -1;
-        return controller.show_records();
+    const getWords = () => {
+        let realm = new LitnerController();
+        realm.status = -1;
+        let result = [];
+        for (const x of realm.show_records()) {
+            let obj = {
+                id: x.id,
+                word: x.word,
+                meaning: x.meaning,
+                more: x.more,
+            }
+            result.push(obj);
+        }
+        return result;
     }
+    const [words, setWords] = useState(getWords());
     const [counter, setCounter] = useState(0);
-    const [words, setWords] = useState(get_words());
-    for (const x of words) {
-        console.log(x.word);
+    const checkAnswer = (answer) => {
+        changeStatus(answer);
+        counter >= words.length - 1 ? props.navigation.navigate('LitnerBox') : setCounter(counter + 1);
+    }
+    const changeStatus = (answer) => {
+        let realm = new LitnerController();
+        realm.userFlag = answer;
+        realm.id = words[counter].id;
+        realm.change_status();
     }
 
-    const check = (ans) => {
-        let controller = new LitnerController();
-        if (ans) {
-            controller.userFlag = true;
-        } else {
-            controller.userFlag = false;
-        }
-
-        controller.id = words[counter].id;
-        controller.change_status();
-
-        if (counter < words.length - 1) {
-            setCounter(counter + 1);
-        } else {
-            props.navigation.navigate('LitnerBox')
-        }
-    }
-
-
-    if (words.length > 0) {
-        return (
-            <View style={{ alignItems: 'center',paddingTop:'30%', }} >
-                <View style={[styles.Testquestion, { alignItems: 'center' }]} >
-                    <Text style={styles.TestquestionText}>{words[counter].word}</Text>
-                </View>
-                <View
-                    style={{ flexDirection: 'row' }}
+    return (
+        <View style={[styles.container, { justifyContent: 'space-evenly' }]} >
+            <View style={[styles.Testquestion, { alignItems: 'center' }]} >
+                <Text style={styles.TestquestionText}>{words[counter].word}</Text>
+            </View>
+            <View
+                style={{ flexDirection: 'row' }}
+            >
+                <Pressable
+                    onPress={() => checkAnswer(true)}
+                    style={[styles.LitnerTest_btn, { backgroundColor: 'blue', }]}
                 >
-                    <Pressable
-                        onPress={() => check(1)}
-                        style={[styles.LitnerTest_btn, { backgroundColor: 'blue', }]}
-                    >
-                        <Text style={{ color: '#fff' }} >Ich weiß es</Text>
-                    </Pressable>
-                    <Pressable
-                        onPress={() => check(0)}
-                        style={[styles.LitnerTest_btn, { backgroundColor: 'red', }]}
+                    <Text style={{ color: '#fff' }} >Ich weiß es</Text>
+                </Pressable>
+                <Pressable
+                    onPress={() => checkAnswer(false)}
+                    style={[styles.LitnerTest_btn, { backgroundColor: 'red', }]}
 
-                    >
-                        <Text style={{ color: '#fff' }} >Ich weiß es NICHT</Text>
-                    </Pressable>
-                </View>
+                >
+                    <Text style={{ color: '#fff' }} >Ich weiß es NICHT</Text>
+                </Pressable>
             </View>
-        );
-    } else {
-        return (
-            <View>
-                <Text style={{ textAlign: 'center' }} >Bisher gibt es keines Wort</Text>
-            </View>
-        );
+        </View>
+    );
 
-    }
 }
 
 

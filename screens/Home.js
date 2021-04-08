@@ -7,7 +7,7 @@ import { styles } from './styleCss';
 const Home = (props) => {
 
     return (
-        <View style={styles.container} >
+        <View style={styles.container}>
             {/* <Icon name="ios-person" size={30} color="#4F8EF7" /> */}
             <Pressable style={styles.btn}
                 onPress={() => props.navigation.navigate('List', {

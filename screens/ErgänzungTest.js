@@ -119,7 +119,7 @@ const ErgänzungTest = (props) => {
     }
     if (counter <= 9) {
         return (
-            <View style={styles.Testcontainer} >
+            <View style={styles.container} >
                 <View style={styles.Testquestion} >
                     <Text style={styles.TestquestionText}>{counter + 1}- {sentences[counter].sentence}</Text>
                 </View>

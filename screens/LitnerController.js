@@ -66,11 +66,6 @@ class LitnerController {
             return filteredObjects;
         }
         var All_Words = realm.objects(this.table_name);
-        for (const x of All_Words) {
-            console.log('TimeStamp: ' + Date.now())
-            console.log(x.word + '---' + x.id);
-
-        }
         return All_Words;
     }
 
@@ -107,8 +102,8 @@ class LitnerController {
         let realm = new Realm();
         let st = 0;
         let nextTime = 0;
-        let oneDay = 86400000;
-        // let oneDay = 30000;
+        // let oneDay = 86400000;
+        let oneDay = 10000;
         let now = Date.now();
         let filteredObject = realm.objects(this.table_name).filtered("id =" + this.id);
         if (this.userFlag) {
@@ -132,6 +127,9 @@ class LitnerController {
                     break;
                 case 5:
                     nextTime = now + (oneDay * 16);
+                    break;
+                case 6:
+                    nextTime = now + (oneDay * 32);
                     break;
             }
         } else {

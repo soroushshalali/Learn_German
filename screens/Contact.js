@@ -5,7 +5,7 @@ import {styles} from './styleCss'
 
 const Contact = (props) => {
     return (
-        <View style={styles.ContactContainer} >
+        <View style={styles.container} >
             <Pressable style={styles.ContactBtn}
                 onPress={() => Linking.openURL('https://soroush-shalali-homepage.netlify.app/')}
             >

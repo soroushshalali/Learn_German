@@ -86,34 +86,34 @@ const TestAdj = (props) => {
 
     if (counter <= 10) {
         return (
-            <View style={styles.Testcontainer} >
+            <View style={styles.container} >
                 <View style={styles.Testquestion} >
                     <Text style={styles.TestquestionText}>{counter}-{dataTest[questionNumbers[counter - 1]].title}. . .</Text>
                 </View>
                 <View>
-                    <Pressable style={[styles.Testbtn, background[0]]}
+                    <Pressable style={[styles.btn, background[0]]}
                         onPress={() => Check(0)}
                     >
                         <View>
-                            <Text style={styles.TestbtnText} >{data.praepositionen[options[counter - 1][0]].title}</Text>
+                            <Text style={styles.btnText} >{data.praepositionen[options[counter - 1][0]].title}</Text>
                         </View>
                     </Pressable>
-                    <Pressable style={[styles.Testbtn, background[1]]}
+                    <Pressable style={[styles.btn, background[1]]}
                         onPress={() => Check(1)}
                     >
                         <View>
-                            <Text style={styles.TestbtnText} >{data.praepositionen[options[counter - 1][1]].title}</Text>
+                            <Text style={styles.btnText} >{data.praepositionen[options[counter - 1][1]].title}</Text>
                         </View>
                     </Pressable>
-                    <Pressable style={[styles.Testbtn, background[2]]}
+                    <Pressable style={[styles.btn, background[2]]}
                         onPress={() => Check(2)}
                     >
                         <View>
-                            <Text style={styles.TestbtnText} >{data.praepositionen[options[counter - 1][2]].title}</Text>
+                            <Text style={styles.btnText} >{data.praepositionen[options[counter - 1][2]].title}</Text>
                         </View>
                     </Pressable>
                 </View>
-                <Pressable style={[styles.Testbtn, {
+                <Pressable style={[styles.btn, {
                     backgroundColor: 'rgba(55, 55, 65, 0.808)'
                 }]}
                     onPress={() => {

@@ -1,9 +1,21 @@
 import React, { useState } from 'react';
-import { Text, View, ScrollView } from 'react-native';
+import { Text, View, ScrollView, Linking } from 'react-native';
 import { styles } from './styleCss';
 
 const Beispiel = (props) => {
     const [example, setExample] = useState(props.route.params.flagData);
+
+    const hyperLinkHandler = () => {
+        if (props.route.params.flag != 'NomVerbVerbin')
+        
+            return (
+                <View style={styles.BeispielBtn} >
+                    <Text style={[styles.BeispielBtnText,{fontSize:15 , letterSpacing:0}]}
+                        onPress={() => Linking.openURL('https://de.wiktionary.org/wiki/' + example.title)}>Mehr Infos und Beispiele über {example.title}</Text>
+                </View>
+            );
+    }
+
     if (props.route.params.flag != 'Brief') {
         return (
 
@@ -15,6 +27,7 @@ const Beispiel = (props) => {
                 <View style={styles.content} >
                     <Text style={styles.BeispielMainText} >{example.example}</Text>
                 </View>
+                {hyperLinkHandler()}
             </ScrollView>
         );
     } else {

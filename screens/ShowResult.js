@@ -15,7 +15,6 @@ const ShowResult = (props) => {
             return data.verbMitPro;
         }
     }
-
     const flatList = () => {
         if (props.falseAnswers) {
             return (
@@ -43,9 +42,9 @@ const ShowResult = (props) => {
 
     const [dataTest, setDataTest] = useState(dataSelect(props.route.params.testId));
     return (
-        <View style={styles.ShowResultcontainer} >
-            <View style={styles.ShowResult} >
-                <Text style={styles.ShowResultText} >{props.correctCounter} / 10</Text>
+        <View style={styles.container} >
+            <View style={styles.Testquestion} >
+                <Text style={[styles.TestquestionText,{textAlign: 'center' , fontSize:30}]} >{props.correctCounter} / 10</Text>
             </View>
             {flatList()}
         </View>
